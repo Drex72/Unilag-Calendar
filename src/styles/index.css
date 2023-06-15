@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.App{
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    opacity: 0.8;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: (400px, 300px);
+}
