@@ -18,7 +18,7 @@ const SectionX = () => {
                 </h1>
             </div>
             <div className="cursor-pointer mt-8 text-center mx-auto border
-            rounded-lg border-grey max-w-[600px] space-y-4 text-[20px] mb-10 p-10">
+            rounded-lg border-grey max-w-[700px] space-y-4 text-[20px] mb-10 p-10">
                 <div className="font-extrabold text-[23px]">Policies of the University</div>
                 <div className="opacity-[.85]">Policy concerning the employment of pregnant women.</div>
                 <div className="opacity-[.85]">Policy on Staff Development Pattern.</div>
