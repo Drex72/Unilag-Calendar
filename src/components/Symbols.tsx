@@ -13,9 +13,7 @@ const Symbols = () => {
           </h1>
         </div>
       </div>
-      <div className="mx-auto max-w-[300px] bg-purple rounded-lg p-2">
-        <h1 className="text-center text-white text-[35px]">Section III</h1>
-      </div>
+      
       <div
         className="cursor-pointer mt-8 text-center mx-auto border
             rounded-lg border-grey max-w-[700px] space-y-4 text-[20px] p-12"
