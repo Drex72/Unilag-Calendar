@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const SectionIII = () => {
     return (
         <div className=" pt-3 w-full ">
@@ -19,20 +21,20 @@ const SectionIII = () => {
             </div>
             <div className="cursor-pointer mt-8 text-center mx-auto border
             rounded-lg border-grey max-w-[600px] space-y-4 text-[20px] mb-10 p-10">
-                <div className="font-extrabold text-[23px]">Notes on University Administration</div>
-                <div className="opacity-[.85]">Vice-Chancellor's Office.</div>
-                <div className="opacity-[.85]">Registry.</div>
-                <div className="opacity-[.85]">Bursary.</div>
-                <div className="opacity-[.85]">Library.</div>
-                <div className="opacity-[.85]">Works & Physical Planning Department.</div>
-                <div className="opacity-[.85]">Dean of Student Affairs Unit.</div>
-                <div className="opacity-[.85]">Academic Planning Unit.</div>
-                <div className="opacity-[.85]">Counselling Unit.</div>
-                <div className="opacity-[.85]">Staff Training and Development Centre.</div>
-                <div className="opacity-[.85]">Security Unit.</div>
-                <div className="opacity-[.85]">Corporate Affairs Directorate.</div>
-                <div className="opacity-[.85]">Quality Assurance and SERVICOM Unit.</div>
-                <div className="opacity-[.85]">Office of Endowment.</div>
+                <div className="font-extrabold text-[23px]"><Link to="/symbols">Notes on University Administration</Link></div>
+                <div className="opacity-[.85]"><Link to="/symbols">Vice-Chancellor's Office.</Link></div>
+                <div className="opacity-[.85]"><Link to="/symbols">Registry.</Link></div>
+                <div className="opacity-[.85]"><Link to="/symbols">Bursary.</Link></div>
+                <div className="opacity-[.85]"><Link to="/symbols">Library.</Link></div>
+                <div className="opacity-[.85]"><Link to="/symbols">Works & Physical Planning Department.</Link></div>
+                <div className="opacity-[.85]"><Link to="/symbols">Dean of Student Affairs Unit.</Link></div>
+                <div className="opacity-[.85]"><Link to="/symbols">Academic Planning Unit.</Link></div>
+                <div className="opacity-[.85]"><Link to="/symbols">Counselling Unit.</Link></div>
+                <div className="opacity-[.85]"><Link to="/symbols">Staff Training and Development Centre.</Link></div>
+                <div className="opacity-[.85]"><Link to="/symbols">Security Unit.</Link></div>
+                <div className="opacity-[.85]"><Link to="/symbols">Corporate Affairs Directorate.</Link></div>
+                <div className="opacity-[.85]"><Link to="/symbols">Quality Assurance and SERVICOM Unit.</Link></div>
+                <div className="opacity-[.85]"><Link to="/symbols">ffice of Endowment.</Link></div>
             </div>
         </div>
     );

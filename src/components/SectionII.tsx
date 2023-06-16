@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const SectionII = () => {
     return (
         <div className=" pt-3 w-full ">
@@ -19,22 +21,22 @@ const SectionII = () => {
             </div>
             <div className="cursor-pointer mt-8 text-center mx-auto border
             rounded-lg border-grey max-w-[600px] space-y-4 text-[20px] mb-10 p-10">
-                <div className="font-extrabold text-[23px]">Authorities and Members of the University</div>
-                <div className="opacity-[.85]">Visitor and Principal Officers.</div>
-                <div className="opacity-[.85]">The Honourable Minister of Education.</div>
-                <div className="opacity-[.85]">Chancellors.</div>
-                <div className="opacity-[.85]">TPro-Chancellors and Chairman of Council.</div>
-                <div className="opacity-[.85]">Council Members.</div>
-                <div className="opacity-[.85]">Principal Officers.</div>
-                <div className="opacity-[.85]">Senate.</div>
-                <div className="opacity-[.85]">Congregation.</div>
-                <div className="opacity-[.85]">Provost and Deans.</div>
-                <div className="opacity-[.85]">Officers of the College of Medicine.</div>
-                <div className="opacity-[.85]">Convocation.</div>
-                <div className="opacity-[.85]">Honorary Awardees.</div>
-                <div className="opacity-[.85]">Emeritus Professors.</div>
-                <div className="opacity-[.85]">Distinguished Professors.</div>
-                <div className="opacity-[.85]">Gold Medalist.</div>
+                <div className="font-extrabold text-[23px]"><Link to="/symbols">Authorities and Members of the University</Link></div>
+                <div className="opacity-[.85]"><Link to="/symbols">Visitor and Principal Officers.</Link></div>
+                <div className="opacity-[.85]"><Link to="/symbols">The Honourable Minister of Education.</Link></div>
+                <div className="opacity-[.85]"><Link to="/symbols">Chancellors.</Link></div>
+                <div className="opacity-[.85]"><Link to="/symbols">Pro-Chancellors and Chairman of Council.</Link></div>
+                <div className="opacity-[.85]"><Link to="/symbols">Council Members.</Link></div>
+                <div className="opacity-[.85]"><Link to="/symbols">Principal Officers.</Link></div>
+                <div className="opacity-[.85]"><Link to="/symbols">Senate.</Link></div>
+                <div className="opacity-[.85]"><Link to="/symbols">Congregation.</Link></div>
+                <div className="opacity-[.85]"><Link to="/symbols">Provost and Deans.</Link></div>
+                <div className="opacity-[.85]"><Link to="/symbols">Officers of the College of Medicine.</Link></div>
+                <div className="opacity-[.85]"><Link to="/symbols">Convocation.</Link></div>
+                <div className="opacity-[.85]"><Link to="/symbols">Honorary Awardees.</Link></div>
+                <div className="opacity-[.85]"><Link to="/symbols">Emeritus Professors.</Link></div>
+                <div className="opacity-[.85]"><Link to="/symbols">Distinguished Professors.</Link></div>
+                <div className="opacity-[.85]"><Link to="/symbols">Gold Medalist.</Link></div>
             </div>
         </div>
     );

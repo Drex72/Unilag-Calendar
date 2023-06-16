@@ -23,7 +23,7 @@ const Navbar = () => {
                         <AiOutlineHome className="mt-1 text-[30px]"/>
                     </Link>
                 </div>
-                <Link to="/" className={`flex pr-2 hover:bg-purple hover:text-white 
+                <Link to="/sectionI" className={`flex pr-2 hover:bg-purple hover:text-white 
                 hover:py-2 hover:pl-7 hover:pr-10 hover:rounded transition ease-in-out hover:delay-100
                 ${activeLink===0 ?"bg-purple py-2 pl-7 pr-[40px] text-white rounded":""} `}
                 
