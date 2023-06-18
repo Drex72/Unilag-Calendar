@@ -32,7 +32,7 @@ const Navbar = () => {
                 </div>
 
                 {/********  Section I **********/}
-                <Link to="/sectionI" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
+                <Link to="/symbols" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
                 hover:py-2 hover:pl-7 hover:pr-10 hover:rounded transition ease-in-out hover:delay-100
                 ${activeLink===0 ?"bg-purple py-2 pl-7 pr-[28px] text-white rounded":""} `}
                 
@@ -53,7 +53,7 @@ const Navbar = () => {
                 }
 
                 {/******* Section II ********/}
-                <Link to="/sectionII" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
+                <Link to="/symbols" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
                 hover:py-2 hover:pl-7 hover:pr-8 hover:rounded transition ease-in-out hover:delay-100
                 ${activeLink===1 ?"bg-purple py-2 pl-7 pr-[28px] text-white rounded":""} `}
                 
@@ -85,7 +85,7 @@ const Navbar = () => {
                     </div>):
                     ""
                 }
-                <Link to="/sectionIII" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
+                <Link to="/symbols" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
                 hover:py-2 hover:pl-7 hover:pr-10 hover:rounded transition ease-in-out hover:delay-100
                 ${activeLink===2 ?"bg-purple py-2 pl-7 pr-[28px] text-white rounded":""} `}
                 
@@ -115,7 +115,7 @@ const Navbar = () => {
                     </div>):
                     ""
                 }
-                <Link to="/sectionIV" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
+                <Link to="/symbols" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
                 hover:py-2 hover:pl-7 hover:pr-10 hover:rounded transition ease-in-out hover:delay-100
                 ${activeLink===3 ?"bg-purple py-2 pl-7 pr-[40px] text-white rounded":""} `}
                 
@@ -143,7 +143,7 @@ const Navbar = () => {
                     </div>):
                     ""
                 }
-                <Link to="/sectionV" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
+                <Link to="/symbols" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
                 hover:py-2 hover:pl-7 hover:pr-8 hover:rounded transition ease-in-out hover:delay-100
                 ${activeLink===4 ?"bg-purple py-2 pr-[26px] pl-7  text-white rounded":""} `}
                 
@@ -165,7 +165,7 @@ const Navbar = () => {
                     ""
                 }
                 {/******* Section VI *******/}
-                <Link to="/sectionVI" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
+                <Link to="/symbols" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
                 hover:py-2 hover:pl-7 hover:pr-10 hover:rounded transition ease-in-out hover:delay-100
                 ${activeLink===5 ?"bg-purple py-2 pl-7 pr-[40px] text-white rounded":""} `}
                 
@@ -203,7 +203,7 @@ const Navbar = () => {
                     ""
                 }
                 {/****** Section VII ******/}
-                <Link to="/sectionVII" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
+                <Link to="/symbols" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
                 hover:py-2 hover:pl-7 hover:pr-10 hover:rounded transition ease-in-out hover:delay-100
                 ${activeLink===6 ?"bg-purple py-2 pl-7 pr-[40px] text-white rounded":""} `}
                 
@@ -263,7 +263,7 @@ const Navbar = () => {
                     ""
                 }
                 {/******  Section VIII ******/}
-                <Link to="/sectionVIII" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
+                <Link to="/symbols" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
                 hover:py-2 hover:pl-7 hover:pr-10 hover:rounded transition ease-in-out hover:delay-100
                 ${activeLink===7 ?"bg-purple py-2 pl-7 pr-[40px] text-white rounded":""} `}
                 
@@ -459,7 +459,7 @@ const Navbar = () => {
                     ""
                 }
                 {/* ****** Section IX ******* */}
-                <Link to="/sectionIX" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
+                <Link to="/symbols" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
                 hover:py-2 hover:pl-7 hover:pr-10 hover:rounded transition ease-in-out hover:delay-100
                 ${activeLink===8 ?"bg-purple py-2 pl-7 pr-[40px] text-white rounded":""} `}
                 
@@ -534,7 +534,7 @@ const Navbar = () => {
                 }
                 
                 {/* *****Section X***** */}
-                <Link to="/sectionX" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
+                <Link to="/symbols" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
                 hover:py-2 hover:pl-7 hover:pr-10 hover:rounded transition ease-in-out hover:delay-100
                 ${activeLink===9 ?"bg-purple py-2 pl-7 pr-[40px] text-white rounded":""} `}
                 
@@ -567,7 +567,7 @@ const Navbar = () => {
                 
 
                 {/* *****Section XI***** */}
-                <Link to="/sectionXI" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
+                <Link to="/symbols" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
                 hover:py-2 hover:pl-7 hover:pr-10 hover:rounded transition ease-in-out hover:delay-100
                 ${activeLink===10 ?"bg-purple py-2 pl-7 pr-[40px] text-white rounded":""} `}
                 
@@ -642,7 +642,7 @@ const Navbar = () => {
                     ""
                 }
                 {/* ***Section XII ***** */}
-                <Link to="/sectionXII" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
+                <Link to="/symbols" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
                 hover:py-2 hover:pl-7 hover:pr-10 hover:rounded transition ease-in-out hover:delay-100
                 ${activeLink===11 ?"bg-purple py-2 pl-7 pr-[40px] text-white rounded":""} `}
                 
@@ -662,7 +662,7 @@ const Navbar = () => {
                     ""
                 }
                 {/* *****Section XIII ****** */}
-                <Link to="/sectionXIII" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
+                <Link to="/symbols" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
                 hover:py-2 hover:pl-7 hover:pr-10 hover:rounded transition ease-in-out hover:delay-100
                 ${activeLink===12 ?"bg-purple py-2 pl-7 pr-[40px] text-white rounded":""} `}
                 
