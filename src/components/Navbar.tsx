@@ -32,7 +32,7 @@ const Navbar = () => {
                 </div>
 
                 {/********  Section I **********/}
-                <Link to="/symbols" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
+                <Link to="#" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
                 hover:py-2 hover:pl-7 hover:pr-10 hover:rounded transition ease-in-out hover:delay-100
                 ${activeLink===0 ?"bg-purple py-2 pl-7 pr-[28px] text-white rounded":""} `}
                 
@@ -45,9 +45,8 @@ const Navbar = () => {
                 </Link>
                 {isOpen[0] ? 
                     (<ul className="transition delay-700 duration-300 ease-in-out space-y-2">
-                        <li className="opacity-[.85] hover:underline"><Link to="/symbols">History and Development of the University.</Link></li>
-                        <li className="opacity-[.85] hover:underline"><Link to="/symbols">History of the University.</Link></li>
-                        <li className="opacity-[.85] hover:underline"><Link to="/symbols">Development and Structure of the University.</Link></li>
+                        <li className="opacity-[.85] hover:underline"><Link to="/sectionI/i">History of the University.</Link></li>
+                        <li className="opacity-[.85] hover:underline"><Link to="/sectionI/ii">Development and Structure of the University.</Link></li>
                     </ul>):
                     ""
                 }

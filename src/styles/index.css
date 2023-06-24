@@ -16,3 +16,9 @@
     display: grid;
     grid-template-columns: (400px, 300px);
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

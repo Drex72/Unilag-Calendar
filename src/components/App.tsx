@@ -15,29 +15,40 @@ import SectionXII from "./SectionXII";
 import SectionXIII from "./SectionXIII";
 import Symbols from "./Symbols";
 import Home from "./Home";
+import History from "./SectionI/History";
+import Development from "./SectionI/Development";
+import ScrollToTop from "./ScrollToTop/ScrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <div className="App flex">
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/symbols" element={<Symbols />} />
-          <Route path="/sectionI" element={<SectionI />} />
-          <Route path="/sectionII" element={<SectionII />} />
-          <Route path="/sectionIII" element={<SectionIII />} />
-          <Route path="/sectionIV" element={<SectionIV />} />
-          <Route path="/sectionV" element={<SectionV />} />
-          <Route path="/sectionVI" element={<SectionVI />} />
-          <Route path="/sectionVII" element={<SectionVII />} />
-          <Route path="/sectionVIII" element={<SectionVIII />} />
-          <Route path="/sectionIX" element={<SectionIX />} />
-          <Route path="/sectionX" element={<SectionX />} />
-          <Route path="/sectionXI" element={<SectionXI />} />
-          <Route path="/sectionXII" element={<SectionXII />} />
-          <Route path="/sectionXIII" element={<SectionXIII />} />
-        </Routes>
+        <div className="">
+
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/symbols" element={<Symbols />} />
+
+            <Route path="/sectionI" element={<History />} />
+            <Route path="/sectionI/i" element={<History />} />
+            <Route path="/sectionI/ii" element={<Development />} />
+
+            <Route path="/sectionII" element={<SectionII />} />
+            <Route path="/sectionIII" element={<SectionIII />} />
+            <Route path="/sectionIV" element={<SectionIV />} />
+            <Route path="/sectionV" element={<SectionV />} />
+            <Route path="/sectionVI" element={<SectionVI />} />
+            <Route path="/sectionVII" element={<SectionVII />} />
+            <Route path="/sectionVIII" element={<SectionVIII />} />
+            <Route path="/sectionIX" element={<SectionIX />} />
+            <Route path="/sectionX" element={<SectionX />} />
+            <Route path="/sectionXI" element={<SectionXI />} />
+            <Route path="/sectionXII" element={<SectionXII />} />
+            <Route path="/sectionXIII" element={<SectionXIII />} />
+          </Routes>
+        </div>
       </div>
     </BrowserRouter>
   );

@@ -1,0 +1,41 @@
+$purple : rgba(103, 58, 183, 1);
+
+.anthem {
+    padding-block: 2em;
+    // background: $purple;
+
+    &_inner_container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    &_heading {
+        color: #313131;
+        font-size: 25px;
+        font-weight: bolder;
+        text-align: center;
+        margin-bottom: 1.5em;
+    }
+
+    &_text {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &_right {
+            width: 40%;
+            
+            p {
+                margin-block: 1em;
+            }
+        }
+        
+        &_left {
+            width: 50%;
+
+            p {
+                margin-block: 1em;
+            }
+        }
+    }
+}

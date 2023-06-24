@@ -1,0 +1,86 @@
+$purple : rgba(103, 58, 183, 1);
+
+.mission_and_colors {
+    padding: 30px 0;
+    background: linear-gradient(75deg, #ffffff 50%, $purple 45%);
+
+    .inner_container {
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .colors {
+            width: 50%;
+
+            &_heading {
+                margin: 0 0 1em;
+                color: #313131;
+                text-align: center;
+                font-size: 21px;
+                font-weight: bolder;
+            }
+
+            &_sub_heading {
+                width: 90%;
+                line-height: 2rem;
+                margin-bottom: 1em;
+            }
+
+            &_table {
+                border-collapse: collapse;
+                width: 80%;
+
+
+                thead {
+                    background: $purple;
+                    color: white;
+
+                    th {
+                        padding: 1rem;
+                        text-align: start;
+                    }
+
+                }
+
+                tbody {
+                    td {
+                        padding: .3rem 1rem;
+                    }
+                }
+
+                td,
+                th {
+                    min-width: 100px;
+                    height: 30px;
+                    margin-bottom: 1em;
+                }
+            }
+        }
+
+        .mission {
+            width: 48%;
+            color: white;
+
+            &_item_container {
+                display: flex;
+                align-items: start;
+                justify-content: space-between;
+                margin-bottom: 2em;
+            }
+
+
+            &_heading {
+                font-style: italic;
+                font-weight: bolder;
+                font-size: 25px;
+            }
+
+            &_content {
+                width: 60%;
+            }
+
+        }
+    }
+}
