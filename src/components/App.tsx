@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./Navbar";
 import SectionI from "./SectionI";
-import SectionII from "./SectionII";
 import SectionIII from "./SectionIII";
 import SectionIV from "./SectionIV";
 import SectionV from "./SectionV";
@@ -18,6 +17,7 @@ import Home from "./Home";
 import History from "./SectionI/History";
 import Development from "./SectionI/Development";
 import ScrollToTop from "./ScrollToTop/ScrollToTop";
+import {Authorities, Chancellors, ProChancellors, Congregation, Convocation, CouncilMembers, DistinguishedProfessors, EmeritusProfessors, GoldMedallist, HonorableMinister, HonoraryAwardees, Officers, PrincipalOfficers, ProvostAndDeans, Senate, Visitors} from './SectionII/'
 
 function App() {
   return (
@@ -35,7 +35,7 @@ function App() {
             <Route path="/sectionI/i" element={<History />} />
             <Route path="/sectionI/ii" element={<Development />} />
 
-            <Route path="/sectionII" element={<SectionII />} />
+            <Route path="/sectionII" element={<Authorities />} />
             <Route path="/sectionIII" element={<SectionIII />} />
             <Route path="/sectionIV" element={<SectionIV />} />
             <Route path="/sectionV" element={<SectionV />} />
