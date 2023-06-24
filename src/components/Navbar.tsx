@@ -65,7 +65,7 @@ const Navbar = () => {
                 </Link>
                 {isOpen[1] ? 
                     (<div className="space-y-3 p-3">
-                        <div className="opacity-[.85] hover:underline"><Link to="/symbols">Authorities and Members of the University.</Link></div>
+                        <div className="opacity-[.85] hover:underline"><Link to="/sectionII">Authorities and Members of the University.</Link></div>
                         <div className="opacity-[.85] hover:underline"><Link to="/symbols">Visitor and Principal Officers.</Link></div>
                         <div className="opacity-[.85] hover:underline"><Link to="/symbols">The Honourable Minister of Education.</Link></div>
                         <div className="opacity-[.85] hover:underline"><Link to="/symbols">Chancellors.</Link></div>
