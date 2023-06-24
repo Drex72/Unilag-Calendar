@@ -52,7 +52,7 @@ const Navbar = () => {
                 }
 
                 {/******* Section II ********/}
-                <Link to="/symbols" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
+                <Link to="#" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
                 hover:py-2 hover:pl-7 hover:pr-8 hover:rounded transition ease-in-out hover:delay-100
                 ${activeLink===1 ?"bg-purple py-2 pl-7 pr-[28px] text-white rounded":""} `}
                 

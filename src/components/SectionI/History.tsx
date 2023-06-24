@@ -1,24 +1,16 @@
 import React from 'react'
 import './styles.scss'
 import { useNavigate } from 'react-router-dom';
+import Header from '../Header/Header';
+import MainLayout from '../Layout/MainLayout';
+import TextHeading from '../TextHeading/TextHeading';
 
 const History = () => {
     const navigate = useNavigate()
     return (
-        <div className=" pt-3 w-full p-10 h-screen overflow-y-scroll animate__animated animate__fadeIn ">
-            <div>
-                <img src={require("../unilag-logo.jpeg")}
-                    className="h-[100px] w-[110px] ml-3 cursor-pointer"
-                    alt="Unilag Logo"
-                />
-                <div className="flex justify-center">
-                    <h1 className="text-[40px] -translate-y-[80px]">
-                        University Calendar
-                    </h1>
-                </div>
-            </div>
+        <MainLayout>
             <div className='history'>
-                <h1 className='history_heading'>History of the University</h1>
+                <TextHeading content='History of the University'/>
 
                 <article className="history_content">
                     <p>
@@ -91,8 +83,7 @@ const History = () => {
                 </div>
 
             </div>
-
-        </div>
+        </MainLayout>
     );
 }
 

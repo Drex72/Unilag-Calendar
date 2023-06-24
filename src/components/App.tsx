@@ -37,6 +37,9 @@ function App() {
             <Route path="/sectionI" element={<History />} />
             <Route path="/sectionI/i" element={<History />} />
             <Route path="/sectionI/ii" element={<Development />} />
+
+
+            <Route path="/sectionII" element={<Authorities />} />
             <Route path="/sectionII/i" element={<Authorities />} />
             <Route path="/sectionII/ii" element={<Visitors />} />
             <Route path="/sectionII/iii" element={<HonorableMinister />} />

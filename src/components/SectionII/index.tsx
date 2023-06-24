@@ -1,3 +1,4 @@
+import './styles.scss'
 export * from './Authorities';
 export * from './Chancellors';
 export * from './Convocation';
