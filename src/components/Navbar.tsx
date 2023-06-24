@@ -65,22 +65,22 @@ const Navbar = () => {
                 </Link>
                 {isOpen[1] ? 
                     (<div className="space-y-3 p-3">
-                        <div className="opacity-[.85] hover:underline"><Link to="/sectionII">Authorities and Members of the University.</Link></div>
-                        <div className="opacity-[.85] hover:underline"><Link to="/symbols">Visitor and Principal Officers.</Link></div>
-                        <div className="opacity-[.85] hover:underline"><Link to="/symbols">The Honourable Minister of Education.</Link></div>
-                        <div className="opacity-[.85] hover:underline"><Link to="/symbols">Chancellors.</Link></div>
-                        <div className="opacity-[.85] hover:underline"><Link to="/symbols">Pro-Chancellors and Chairman of Council.</Link></div>
-                        <div className="opacity-[.85] hover:underline"><Link to="/symbols">Council Members.</Link></div>
-                        <div className="opacity-[.85] hover:underline"><Link to="/symbols">Principal Officers.</Link></div>
-                        <div className="opacity-[.85] hover:underline"><Link to="/symbols">Senate.</Link></div>
-                        <div className="opacity-[.85] hover:underline"><Link to="/symbols">Congregation.</Link></div>
-                        <div className="opacity-[.85] hover:underline"><Link to="/symbols">Provost and Deans.</Link></div>
-                        <div className="opacity-[.85] hover:underline"><Link to="/symbols">Officers of the College of Medicine.</Link></div>
-                        <div className="opacity-[.85] hover:underline"><Link to="/symbols">Convocation.</Link></div>
-                        <div className="opacity-[.85] hover:underline"><Link to="/symbols">Honorary Awardees.</Link></div>
-                        <div className="opacity-[.85] hover:underline"><Link to="/symbols">Emeritus Professors.</Link></div>
-                        <div className="opacity-[.85] hover:underline"><Link to="/symbols">Distinguished Professors.</Link></div>
-                        <div className="opacity-[.85] hover:underline"><Link to="/symbols">Gold Medalist.</Link></div>
+                        <div className="opacity-[.85] hover:underline"><Link to="/sectionII/i">Authorities and Members of the University.</Link></div>
+                        <div className="opacity-[.85] hover:underline"><Link to="sectionII/ii">Visitor and Principal Officers.</Link></div>
+                        <div className="opacity-[.85] hover:underline"><Link to="/sectionII/iii">The Honourable Minister of Education.</Link></div>
+                        <div className="opacity-[.85] hover:underline"><Link to="/sectionII/iv">Chancellors.</Link></div>
+                        <div className="opacity-[.85] hover:underline"><Link to="/sectionII/v">Pro-Chancellors and Chairman of Council.</Link></div>
+                        <div className="opacity-[.85] hover:underline"><Link to="/sectionII/vi">Council Members.</Link></div>
+                        <div className="opacity-[.85] hover:underline"><Link to="/sectionII/vii">Principal Officers.</Link></div>
+                        <div className="opacity-[.85] hover:underline"><Link to="/sectionII/viii">Senate.</Link></div>
+                        <div className="opacity-[.85] hover:underline"><Link to="/sectionII/ix">Congregation.</Link></div>
+                        <div className="opacity-[.85] hover:underline"><Link to="/sectionII/x">Provost and Deans.</Link></div>
+                        <div className="opacity-[.85] hover:underline"><Link to="/sectionII/xi">Officers of the College of Medicine.</Link></div>
+                        <div className="opacity-[.85] hover:underline"><Link to="/sectionII/xii">Convocation.</Link></div>
+                        <div className="opacity-[.85] hover:underline"><Link to="/sectionII/xiii">Honorary Awardees.</Link></div>
+                        <div className="opacity-[.85] hover:underline"><Link to="/sectionII/xiv">Emeritus Professors.</Link></div>
+                        <div className="opacity-[.85] hover:underline"><Link to="/sectionII/xv">Distinguished Professors.</Link></div>
+                        <div className="opacity-[.85] hover:underline"><Link to="/sectionII/xvi">Gold Medalist.</Link></div>
                     </div>):
                     ""
                 }
