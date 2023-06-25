@@ -52,6 +52,8 @@ function App() {
             <Route path="/sectionX" element={<SectionX />} />
             <Route path="/sectionXI" element={<SectionXI />} />
             <Route path="/sectionXII" element={<SectionXII />} />
+
+
             <Route path="/sectionXIII" element={<SectionXIII />} />
           </Routes>
         </div>
