@@ -18,9 +18,23 @@ import History from "./SectionI/History";
 import Development from "./SectionI/Development";
 import ScrollToTop from "./ScrollToTop/ScrollToTop";
 import {
-  Authorities, Chancellors, ProChancellors, Congregation, Convocation, CouncilMembers, DistinguishedProfessors, EmeritusProfessors, GoldMedallist, HonorableMinister, HonoraryAwardees,
-  Officers, PrincipalOfficers, ProvostAndDeans, Senate, Visitors
-} from './SectionII/'
+  Authorities,
+  Chancellors,
+  ProChancellors,
+  Congregation,
+  Convocation,
+  CouncilMembers,
+  DistinguishedProfessors,
+  EmeritusProfessors,
+  GoldMedallist,
+  HonorableMinister,
+  HonoraryAwardees,
+  Officers,
+  PrincipalOfficers,
+  ProvostAndDeans,
+  Senate,
+  Visitors,
+} from "./SectionII/";
 
 function App() {
   return (
@@ -28,8 +42,11 @@ function App() {
       <ScrollToTop />
       <div className="App flex">
         <Navbar />
-        <div className="">
-
+        <div
+          style={{
+            width: "80%",
+          }}
+        >
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/symbols" element={<Symbols />} />
@@ -37,7 +54,6 @@ function App() {
             <Route path="/sectionI" element={<History />} />
             <Route path="/sectionI/i" element={<History />} />
             <Route path="/sectionI/ii" element={<Development />} />
-
 
             <Route path="/sectionII" element={<Authorities />} />
             <Route path="/sectionII/i" element={<Authorities />} />
@@ -56,8 +72,6 @@ function App() {
             <Route path="/sectionII/xiv" element={<EmeritusProfessors />} />
             <Route path="/sectionII/xv" element={<DistinguishedProfessors />} />
             <Route path="/sectionII/xvi" element={<GoldMedallist />} />
-
-
 
             <Route path="/sectionIII" element={<SectionIII />} />
             <Route path="/sectionIV" element={<SectionIV />} />
