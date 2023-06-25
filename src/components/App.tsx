@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./Navbar";
 import SectionI from "./SectionI";
-import SectionIII from "./SectionIII";
+import { SectionIII } from "./SectionIII/SectionIII";
 import SectionIV from "./SectionIV";
 import SectionV from "./SectionV";
 import SectionVI from "./SectionVI";
@@ -41,8 +41,9 @@ function App() {
             <Route path="/sectionII" element={<SectionII />} />
             <Route path="/sectionII/i" element={<SectionII />} />
 
-
             <Route path="/sectionIII" element={<SectionIII />} />
+            <Route path="/sectionIII/i" element={<SectionIII />} />
+            
             <Route path="/sectionIV" element={<SectionIV />} />
             <Route path="/sectionV" element={<SectionV />} />
             <Route path="/sectionVI" element={<SectionVI />} />
