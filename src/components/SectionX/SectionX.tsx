@@ -6,7 +6,7 @@ import { Element } from "react-scroll";
 export function SectionX() {
   return (
     <MainLayout>
-      <Element name="policies">git branch
+      <Element name="policies">
         <TextHeading content="Policies of the University " />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quos hic
