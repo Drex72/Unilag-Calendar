@@ -1,9 +1,11 @@
 import {AiOutlineHome} from "react-icons/ai"
 import {BiGridSmall} from "react-icons/bi"
-import { Link } from "react-router-dom";
+import { Link} from "react-router-dom";
 import { useState, useEffect } from "react";
 import {BsChevronDown} from "react-icons/bs"
 import {BsChevronUp} from "react-icons/bs"
+import { Link as ScrollLink } from 'react-scroll';
+
 const Navbar = () => {
     const [activeLink, setActiveLink] = useState<number | null>(null);//useState to select items on the Navbar one at a time
 
@@ -20,7 +22,7 @@ const Navbar = () => {
       };
 
     return ( 
-        <div className="flex">
+        <div className="flex min-h-screen">
             <div className=" w-[200px] flex flex-col border-r border-grey 
                 space-y-10 pt-5 items-center text-center pb-10"
             >
@@ -65,22 +67,22 @@ const Navbar = () => {
                 </Link>
                 {isOpen[1] ? 
                     (<div className="space-y-3 p-3">
-                        <div className="opacity-[.85] hover:underline"><Link to="/sectionII/i">Authorities and Members of the University.</Link></div>
-                        <div className="opacity-[.85] hover:underline"><Link to="sectionII/ii">Visitor and Principal Officers.</Link></div>
-                        <div className="opacity-[.85] hover:underline"><Link to="/sectionII/iii">The Honourable Minister of Education.</Link></div>
-                        <div className="opacity-[.85] hover:underline"><Link to="/sectionII/iv">Chancellors.</Link></div>
-                        <div className="opacity-[.85] hover:underline"><Link to="/sectionII/v">Pro-Chancellors and Chairman of Council.</Link></div>
-                        <div className="opacity-[.85] hover:underline"><Link to="/sectionII/vi">Council Members.</Link></div>
-                        <div className="opacity-[.85] hover:underline"><Link to="/sectionII/vii">Principal Officers.</Link></div>
-                        <div className="opacity-[.85] hover:underline"><Link to="/sectionII/viii">Senate.</Link></div>
-                        <div className="opacity-[.85] hover:underline"><Link to="/sectionII/ix">Congregation.</Link></div>
-                        <div className="opacity-[.85] hover:underline"><Link to="/sectionII/x">Provost and Deans.</Link></div>
-                        <div className="opacity-[.85] hover:underline"><Link to="/sectionII/xi">Officers of the College of Medicine.</Link></div>
-                        <div className="opacity-[.85] hover:underline"><Link to="/sectionII/xii">Convocation.</Link></div>
-                        <div className="opacity-[.85] hover:underline"><Link to="/sectionII/xiii">Honorary Awardees.</Link></div>
-                        <div className="opacity-[.85] hover:underline"><Link to="/sectionII/xiv">Emeritus Professors.</Link></div>
-                        <div className="opacity-[.85] hover:underline"><Link to="/sectionII/xv">Distinguished Professors.</Link></div>
-                        <div className="opacity-[.85] hover:underline"><Link to="/sectionII/xvi">Gold Medalist.</Link></div>
+                        <div className="opacity-[.85] hover:underline"><ScrollLink to="authorities" smooth={true} duration={500}><Link to="sectionII/i">Authorities and Members of the University.</Link></ScrollLink></div>
+                        <div className="opacity-[.85] hover:underline"><ScrollLink to="visitors" smooth={true} duration={500}><Link to="sectionII/i">Visitor and Principal Officers.</Link></ScrollLink></div>
+                        <div className="opacity-[.85] hover:underline"><ScrollLink to="honorable" smooth={true} duration={500}><Link to="/sectionII/i">The Honourable Minister of Education.</Link></ScrollLink></div>
+                        <div className="opacity-[.85] hover:underline"><ScrollLink to="chancellors" smooth={true} duration={500}><Link to="/sectionII/i">Chancellors.</Link></ScrollLink></div>
+                        <div className="opacity-[.85] hover:underline"><ScrollLink to="pro-chancellors" smooth={true} duration={500}><Link to="/sectionII/i">Pro-Chancellors and Chairman of Council.</Link></ScrollLink></div>
+                        <div className="opacity-[.85] hover:underline"><ScrollLink to="council-members" smooth={true} duration={500}><Link to="/sectionII/i">Council Members.</Link></ScrollLink></div>
+                        <div className="opacity-[.85] hover:underline"><ScrollLink to="principal-officers" smooth={true} duration={500}><Link to="/sectionII/i">Principal Officers.</Link></ScrollLink></div>
+                        <div className="opacity-[.85] hover:underline"><ScrollLink to="senate" smooth={true} duration={500}><Link to="/sectionII/i">Senate.</Link></ScrollLink></div>
+                        <div className="opacity-[.85] hover:underline"><ScrollLink to="congregation" smooth={true} duration={500}><Link to="/sectionII/i">Congregation.</Link></ScrollLink></div>
+                        <div className="opacity-[.85] hover:underline"><ScrollLink to="provost-and-deans" smooth={true} duration={500}><Link to="/sectionII/i">Provost and Deans.</Link></ScrollLink></div>
+                        <div className="opacity-[.85] hover:underline"><ScrollLink to="officers" smooth={true} duration={500}><Link to="/sectionII/i">Officers of the College of Medicine.</Link></ScrollLink></div>
+                        <div className="opacity-[.85] hover:underline"><ScrollLink to="convocation" smooth={true} duration={500}><Link to="/sectionII/i">Convocation.</Link></ScrollLink></div>
+                        <div className="opacity-[.85] hover:underline"><ScrollLink to="honorary-awardees" smooth={true} duration={500}><Link to="/sectionII/i">Honorary Awardees.</Link></ScrollLink></div>
+                        <div className="opacity-[.85] hover:underline"><ScrollLink to="emeritus-professors" smooth={true} duration={500}><Link to="/sectionII/i">Emeritus Professors.</Link></ScrollLink></div>
+                        <div className="opacity-[.85] hover:underline"><ScrollLink to="distinguished-professors" smooth={true} duration={500}><Link to="/sectionII/i">Distinguished Professors.</Link></ScrollLink></div>
+                        <div className="opacity-[.85] hover:underline"><ScrollLink to="gold-medallist" smooth={true} duration={500}><Link to="/sectionII/i">Gold Medalist.</Link></ScrollLink></div>
                     </div>):
                     ""
                 }
