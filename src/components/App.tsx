@@ -18,8 +18,7 @@ import History from "./SectionI/History";
 import Development from "./SectionI/Development";
 import ScrollToTop from "./ScrollToTop/ScrollToTop";
 import {
-  Authorities, Chancellors, ProChancellors, Congregation, Convocation, CouncilMembers, DistinguishedProfessors, EmeritusProfessors, GoldMedallist, HonorableMinister, HonoraryAwardees,
-  Officers, PrincipalOfficers, ProvostAndDeans, Senate, Visitors
+  SectionII
 } from './SectionII/'
 
 function App() {
@@ -39,24 +38,8 @@ function App() {
             <Route path="/sectionI/ii" element={<Development />} />
 
 
-            <Route path="/sectionII" element={<Authorities />} />
-            <Route path="/sectionII/i" element={<Authorities />} />
-            <Route path="/sectionII/ii" element={<Visitors />} />
-            <Route path="/sectionII/iii" element={<HonorableMinister />} />
-            <Route path="/sectionII/iv" element={<Chancellors />} />
-            <Route path="/sectionII/v" element={<ProChancellors />} />
-            <Route path="/sectionII/vi" element={<CouncilMembers />} />
-            <Route path="/sectionII/vii" element={<PrincipalOfficers />} />
-            <Route path="/sectionII/viii" element={<Senate />} />
-            <Route path="/sectionII/ix" element={<Congregation />} />
-            <Route path="/sectionII/x" element={<ProvostAndDeans />} />
-            <Route path="/sectionII/xi" element={<Officers />} />
-            <Route path="/sectionII/xii" element={<Convocation />} />
-            <Route path="/sectionII/xiii" element={<HonoraryAwardees />} />
-            <Route path="/sectionII/xiv" element={<EmeritusProfessors />} />
-            <Route path="/sectionII/xv" element={<DistinguishedProfessors />} />
-            <Route path="/sectionII/xvi" element={<GoldMedallist />} />
-
+            <Route path="/sectionII" element={<SectionII />} />
+            <Route path="/sectionII/i" element={<SectionII />} />
 
 
             <Route path="/sectionIII" element={<SectionIII />} />
