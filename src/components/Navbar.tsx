@@ -643,7 +643,7 @@ const Navbar = () => {
                     ""
                 }
                 {/* ***Section XII ***** */}
-                <Link to="/symbols" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
+                <Link to="#" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
                 hover:py-2 hover:pl-7 hover:pr-10 hover:rounded transition ease-in-out hover:delay-100
                 ${activeLink===11 ?"bg-purple py-2 pl-7 pr-[40px] text-white rounded":""} `}
                 
@@ -657,7 +657,7 @@ const Navbar = () => {
                 {isOpen[11] ? 
                     (<div className="space-y-4 p-3">
                         <div className="opacity-[.85] hover:underline">
-                            <Link to="/symbols">Alumni and Endowment Activities</Link>
+                            <Link to="/sectionXII">Alumni and Endowment Activities</Link>
                         </div>
                     </div>):
                     ""

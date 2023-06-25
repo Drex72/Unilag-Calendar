@@ -10,7 +10,6 @@ import SectionVIII from "./SectionVIII";
 import SectionIX from "./SectionIX";
 import SectionX from "./SectionX";
 import SectionXI from "./SectionXI";
-import SectionXII from "./SectionXII";
 import SectionXIII from "./SectionXIII";
 import Symbols from "./Symbols";
 import Home from "./Home";
@@ -20,6 +19,7 @@ import ScrollToTop from "./ScrollToTop/ScrollToTop";
 import {
   SectionII
 } from './SectionII/'
+import SectionXII from "./SectionXII/SectionXII";
 
 function App() {
   return (
