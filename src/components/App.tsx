@@ -8,7 +8,7 @@ import SectionVI from "./SectionVI";
 import SectionVII from "./SectionVII";
 import SectionVIII from "./SectionVIII";
 import SectionIX from "./SectionIX";
-import SectionX from "./SectionX";
+import SectionX from "./SectionX/SectionX";
 import SectionXI from "./SectionXI";
 import SectionXII from "./SectionXII";
 import SectionXIII from "./SectionXIII";
