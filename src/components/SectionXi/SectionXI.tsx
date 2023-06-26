@@ -1,9 +1,10 @@
 import React from 'react'
+import './styles.scss'
 import { useNavigate } from 'react-router-dom';
 import MainLayout from '../Layout/MainLayout';
 import TextHeading from '../TextHeading/TextHeading';
 
-const SectionXII = () => {
+const SectionXI = () => {
     const navigate = useNavigate()
     return (
         <MainLayout>
@@ -79,6 +80,7 @@ const SectionXII = () => {
             </div>
         </MainLayout>
     );
+  
 }
 
-export default SectionXII
+export default SectionXI

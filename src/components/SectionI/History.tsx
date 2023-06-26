@@ -1,7 +1,5 @@
 import React from 'react'
-import './styles.scss'
 import { useNavigate } from 'react-router-dom';
-import Header from '../Header/Header';
 import MainLayout from '../Layout/MainLayout';
 import TextHeading from '../TextHeading/TextHeading';
 

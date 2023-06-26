@@ -568,7 +568,7 @@ const Navbar = () => {
                 
 
                 {/* *****Section XI***** */}
-                <Link to="/symbols" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
+                <Link to="#" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
                 hover:py-2 hover:pl-7 hover:pr-10 hover:rounded transition ease-in-out hover:delay-100
                 ${activeLink===10 ?"bg-purple py-2 pl-7 pr-[40px] text-white rounded":""} `}
                 
@@ -582,30 +582,25 @@ const Navbar = () => {
                 {isOpen[10] ? 
                     (<div className="space-y-4 p-3">
                         <div className="fopacity-[.85] hover:underline">
-                        <Link to="/symbols">
+                        {/* <Link to="/symbols">
                             Welfare policies for University Staff and Student.
-                        </Link>
+                        </Link> */}
                         </div>
                         <div className="opacity-[.85] hover:underline">
-                        <Link to="/symbols">Housing Unit and Staff Quarters.</Link>
+                        <Link to="/sectionXI/i">Housing Unit and Staff Quarters.</Link>
                         </div>
                         <div className="opacity-[.85] hover:underline">
-                        <Link to="/symbols">Medical Centre and Health Insurance Scheme.</Link>
+                        <Link to="/sectionXI/ii">Medical Centre and Health Insurance Scheme.</Link>
                         </div>
                         <div className="opacity-[.85] hover:underline">
-                        <Link to="/symbols">Sports Centre.</Link>
+                        <Link to="/sectionXI/iii">Sports Centre.</Link>
                         </div>
+                       
                         <div className="opacity-[.85] hover:underline">
-                        <Link to="/symbols">Staff Unions.</Link>
-                        </div>
-                        <div className="opacity-[.85] hover:underline">
-                        <Link to="/symbols">Cooperative Societies.</Link>
-                        </div>
-                        <div className="opacity-[.85] hover:underline">
-                        <Link to="/symbols">Places of worship.</Link>
+                        <Link to="/sectionXI/iv">Places of worship.</Link>
                         </div>
                         <div className="opacity-[.85] hover:underline]">
-                        <Link to="/symbols">University of Lagos Staff School.</Link>
+                        <Link to="/sectionXI/v">University of Lagos Staff School.</Link>
                         </div>
                         <div className="oopacity-[.85] hover:underline">
                         <Link to="/symbols">PInternational School, University of Lagos.</Link>
