@@ -67,18 +67,30 @@ const Navbar = () => {
                 </Link>
                 {isOpen[1] ?
                     (<div className="space-y-3 p-3">
-                        <div className="opacity-[.85] hover:underline"><ScrollLink to="authorities" smooth={true} duration={500}><Link to="sectionII/i">Authorities and Members of the University.</Link></ScrollLink></div>
-                        <div className="opacity-[.85] hover:underline"><ScrollLink to="visitors" smooth={true} duration={500}><Link to="sectionII/i">Visitor and Principal Officers.</Link></ScrollLink></div>
-                        <div className="opacity-[.85] hover:underline"><ScrollLink to="honorable" smooth={true} duration={500}><Link to="/sectionII/i">The Honourable Minister of Education.</Link></ScrollLink></div>
-                        <div className="opacity-[.85] hover:underline"><ScrollLink to="chancellors" smooth={true} duration={500}><Link to="/sectionII/i">Chancellors.</Link></ScrollLink></div>
-                        <div className="opacity-[.85] hover:underline"><ScrollLink to="pro-chancellors" smooth={true} duration={500}><Link to="/sectionII/i">Pro-Chancellors and Chairman of Council.</Link></ScrollLink></div>
-                        <div className="opacity-[.85] hover:underline"><ScrollLink to="council-members" smooth={true} duration={500}><Link to="/sectionII/i">Council Members.</Link></ScrollLink></div>
-                        <div className="opacity-[.85] hover:underline"><ScrollLink to="principal-officers" smooth={true} duration={500}><Link to="/sectionII/i">Principal Officers.</Link></ScrollLink></div>
-                        <div className="opacity-[.85] hover:underline"><ScrollLink to="senate" smooth={true} duration={500}><Link to="/sectionII/i">Senate.</Link></ScrollLink></div>
-                        <div className="opacity-[.85] hover:underline"><ScrollLink to="congregation" smooth={true} duration={500}><Link to="/sectionII/i">Congregation.</Link></ScrollLink></div>
-                        <div className="opacity-[.85] hover:underline"><ScrollLink to="provost-and-deans" smooth={true} duration={500}><Link to="/sectionII/i">Provost and Deans.</Link></ScrollLink></div>
-                        <div className="opacity-[.85] hover:underline"><ScrollLink to="officers" smooth={true} duration={500}><Link to="/sectionII/i">Officers of the College of Medicine.</Link></ScrollLink></div>
-                        <div className="opacity-[.85] hover:underline"><ScrollLink to="convocation" smooth={true} duration={500}><Link to="/sectionII/i">Convocation.</Link></ScrollLink></div>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="authorities" smooth={true} duration={500}><Link to="sectionII/i">Authorities and Members of the University.</Link></ScrollLink></div>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="visitors" smooth={true} duration={500}><Link to="sectionII/i">Visitor and Principal Officers.</Link></ScrollLink></div>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="honorable" smooth={true} duration={500}><Link to="/sectionII/i">The Honourable Minister of Education.</Link></ScrollLink></div>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="chancellors" smooth={true} duration={500}><Link to="/sectionII/i">Chancellors.</Link></ScrollLink></div>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="pro-chancellors" smooth={true} duration={500}><Link to="/sectionII/i">Pro-Chancellors and Chairman of Council.</Link></ScrollLink></div>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="council-members" smooth={true} duration={500}><Link to="/sectionII/i">Council Members.</Link></ScrollLink></div>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="principal-officers" smooth={true} duration={500}><Link to="/sectionII/i">Principal Officers.</Link></ScrollLink></div>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="senate" smooth={true} duration={500}><Link to="/sectionII/i">Senate.</Link></ScrollLink></div>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="congregation" smooth={true} duration={500}><Link to="/sectionII/i">Congregation.</Link></ScrollLink></div>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="provost-and-deans" smooth={true} duration={500}><Link to="/sectionII/i">Provost and Deans.</Link></ScrollLink></div>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="officers" smooth={true} duration={500}><Link to="/sectionII/i">Officers of the College of Medicine.</Link></ScrollLink></div>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="convocation" smooth={true} duration={500}><Link to="/sectionII/i">Convocation.</Link></ScrollLink></div>
                         <div className="opacity-[.85] hover:underline"><ScrollLink to="honorary-awardees" smooth={true} duration={500}><Link to="/sectionII/i">Honorary Awardees.</Link></ScrollLink></div>
                         <div className="opacity-[.85] hover:underline"><ScrollLink to="emeritus-professors" smooth={true} duration={500}><Link to="/sectionII/i">Emeritus Professors.</Link></ScrollLink></div>
                         <div className="opacity-[.85] hover:underline"><ScrollLink to="distinguished-professors" smooth={true} duration={500}><Link to="/sectionII/i">Distinguished Professors.</Link></ScrollLink></div>
@@ -166,7 +178,7 @@ const Navbar = () => {
                     ""
                 }
                 {/******* Section VI *******/}
-                <Link to="/symbols" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
+                <Link to="#" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
                 hover:py-2 hover:pl-7 hover:pr-10 hover:rounded transition ease-in-out hover:delay-100
                 ${activeLink === 5 ? "bg-purple py-2 pl-7 pr-[40px] text-white rounded" : ""} `}
 
@@ -179,25 +191,30 @@ const Navbar = () => {
                 </Link>
                 {isOpen[5] ?
                     (<div className="space-y-3 p-3">
-
                         <div className="opacity-[.85] hover:underline">
-                            <Link to="/symbols">General Regulations.</Link>
+                            <ScrollLink to="general-regulations" smooth={true} duration={500}>
+                                <Link to="/sectionVI">General Regulations.</Link>
+                            </ScrollLink>
                         </div>
                         <div className="opacity-[.85] hover:underline">
-                            <Link to="/symbols">Admission Requirements.</Link>
-                        </div>
-                        <div className="opacity-[.85] hover:underline]">
-                            <Link to="/symbols">
-                                Regulations Governing First Degree Programmes.
-                            </Link>
+                            <ScrollLink to="admission-requirements" smooth={true} duration={500}>
+                                <Link to="/sectionVI">Admission Requirements.</Link>
+                            </ScrollLink>
                         </div>
                         <div className="opacity-[.85] hover:underline">
-                            <Link to="/symbols">
-                                Regulations Governing the Conduct of Examinations.
-                            </Link>
+                            <ScrollLink to="regulations-governing-first-degree" smooth={true} duration={500}>
+                                <Link to="/sectionVI">Regulations Governing First Degree Programmes.</Link>
+                            </ScrollLink>
                         </div>
                         <div className="opacity-[.85] hover:underline">
-                            <Link to="/symbols">Regulations Governing Graduate Studies.</Link>
+                            <ScrollLink to="regulations-governing-exam-conduct" smooth={true} duration={500}>
+                                <Link to="/sectionVI">Regulations Governing the Conduct of Examinations.</Link>
+                            </ScrollLink>
+                        </div>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="regulations-governing-graduate-studies" smooth={true} duration={500}>
+                                <Link to="/sectionVI">Regulations Governing Graduate Studies.</Link>
+                            </ScrollLink>
                         </div>
 
                     </div>) :
@@ -328,9 +345,9 @@ const Navbar = () => {
                                 <Link to="sectionVIII"> Centre for Autism and Neurodevelopmental Disorders (CAN-DO).</Link>
                             </ScrollLink>
                         </div>
-                      
-                       
-                      
+
+
+
                         <div>
                             <Link to="/symbols" className="opacity-[.85] hover:underline">
                                 Centre for Entrepreneurship.
