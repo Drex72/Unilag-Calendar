@@ -70,7 +70,7 @@ export function SectionIII() {
                 </ol>
                 <ol>
                   <li>
-                    <h4>Academic Affairs Unit</h4>
+                    <h4>ACADEMIC AFFAIRS'S UNIT</h4>
                     The scope of duties of the Academic Affairs Unit covers: Compilation and processing of requests for Extension, Re-Absorption, Leave of Absence and Deferment by students. Compilation of Award and Prize Winners List for Publication Convocation Brochure and issuance Award/Prize Certificates. Liaising with the Student Affairs Division and Office of Advancement on verification of results of students for scholarship awarding states and bodies as well as internship offering companies/agencies. Liaising with Faculty Officers on all academic issues of students. Liaising with CITS and Faculty Officers for the issuance and distribution of students ID Cards. Publication, compilation and processing of applications for Inter/Intra Faculty Transfer. Generation and processing of the Universitys Academic Calendar for Senate approval. Endorsement of students online data as appropriate for withdrawal, extension, re-absorption, expulsion, rustication, suspension and deferment among others. Conveying Senate decision on withdrawal, extension, re-absorption, leave of absence and deferment among others. Conveying Vice Chancellors approval and decisions on Misconduct Panels recommendations to students. Pre and post Matriculation Ceremony activities. Pre and post convocation ceremony activities.
                     <ul>
                       <li>Making projection for blank certificates to be requested for, ahead of convocation ceremonies.</li>
@@ -143,13 +143,52 @@ export function SectionIII() {
                       </ul>
                     </p>
                   </li>
+                  <li>
+                    <h4>EXAMINATIONS OFFICE</h4>
+                    <p>
+                      The Examinations Office, a unit of the Directorate of Academic Affairs is responsible for the conduct of undergraduate examinations as well as the processing of its examination results in the University among other things.    It is responsible for the processing of all students results for Senate approval through Business Committee of Senate (BCOS). It processes all Senate approved results for Vice Chancellors signature. It also processes the Scheme of Examinations and Panel of Examiners for Senate.
+                      The Unit is responsible for issuing letters of appointment to External Examiners. It Processes all Vice Chancellors signed results to Records Office, Faculties, Departments, Distance Learning Institute and College of Medicine. Tracking of results and Schemes of Examination and Panel of Examiners is its responsibility. It orders and stocks examination materials for subsequent distribution to Faculties and College. It deals with the Reprography of examination question papers. The Unit is responsible for the implementation of the Academic and Social Misconduct Reports by issuing appropriate letters to students based on the Vice- Chancellors approval.
+                      <ul>
+                        <li>It schedules and attends the Faculty Board of Examiners meeting. </li>
+                        <li>
+                          Business Committee of Senate (BCOS)   Central Time Table Committee (CTTC)
+                          <li>Business Committee of Senate (BCOS)</li>
+                          <li>Central Time Table Committee (CTTC)</li>
+                        </li>
+                      </ul>
+                    </p>
+                    <p>
+                      Records Office/ IRMIS  The Unit is responsible for keeping the records of all students since inception of the University. It also issues results to students from time to time. Other functions of the Unit are as follows:
+                      <ol>
+                        <li>Transcripts are issued on request from students. The student applies for transcript after payment of the prescribed fees, submits the application to the Records Office. The application must state clearly the applicants matriculation number, course of study and the address to which the transcript should be forwarded.</li>
+                        <li>Employers and institutions often requests for Academic Confidential Reports to authenticate the various claims made by ex-students of the University. </li>
+                        <li>Employers and institutions also refer students results to the University for verification. Such requests are processed as appropriate. The Unit is also in charge of computerization of the University students records, and transcripts as well as students affairs.</li>
+                      </ol>
+                    </p>
+                    <p>
+                      Certificate & Verification Unit. This Unit prepares Certificates of graduates upon completion of academic requirements and approval of Senate. The Unit also verifies certificates of ex-students upon request from private and public organisations. It is important to note that the Unit has lived up to expectation by ensuring certificates are ready as requested by the regulating body and modalities for collection of the certificates are seamless.
+                    </p>
+                  </li>
                 </ol>
               </p>
             </li>
-
             <li>
-              <h4></h4>
-              <p></p>
+              <h4>HUMAN RESOURCES MANAGEMENT DEPARTMENT</h4>
+              <p>The Human Resources Management Department comprises of the following units: Academic Staff Unit:  The Office handles matters relating to the appointment, promotion, discipline, training and development as well as the retirement of all categories of Academic Staff of the University. The Office operates through the Appointment and Promotions Board. </p>
+              <ul>
+                <li>
+                  <p>Administrative & Technical Staff Unit: The Office deals with matters of the appointment, promotion, discipline training and development as well as the retirement of all categories of Administrative & Technical Staff Committee.</p>
+                </li>
+                <li>
+                  <p>Junior Staff Unit: The Unit handles all matters relating to the appointment, promotion, discipline, training and development as well as the retirement of all categories of Junior Staff in the University. It also functions through the Junior Staff Committee which oversees the issues of junior staff. </p>
+                </li>
+                <li>
+                  <p>Junior Staff Unit: The Unit handles all matters relating to the appointment, promotion, discipline, training and development as well as the retirement of all categories of Junior Staff in the University. It also functions through the Junior Staff Committee which oversees the issues of junior staff. </p>
+                </li>
+                <li>
+                  <p>Pensions Unit: The Unit takes care of pension related issues for all categories of staff retiring from the University services. It also educates staff on Pension Act and other contemporary issues relating to pension in Nigeria.</p>
+                </li>
+              </ul>
             </li>
             <li>
               <h4></h4>
