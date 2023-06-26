@@ -22,7 +22,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className="flex min-h-screen">
+        <div className="flex h-screen overflow-y-scroll fixed">
             <div className=" w-[200px] flex flex-col border-r border-grey 
                 space-y-10 pt-5 items-center text-center pb-10"
             >
@@ -302,42 +302,35 @@ const Navbar = () => {
                                 <Link to="sectionVIII"> Centre for African Regional Integration of Border Studies.</Link>
                             </ScrollLink>
                         </div>
-
-                        <div>
-                            <Link to="/symbols" className="opacity-[.85] hover:underline">
-                                Arthur Mbanefo Centre.
-                            </Link>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="Centre-for-Autism-and-Neurodevelopmental" smooth={true} duration={500}>
+                                <Link to="sectionVIII"> Centre for Autism and Neurodevelopmental Disorders (CAN-DO).</Link>
+                            </ScrollLink>
                         </div>
-                        <div>
-                            <Link to="/symbols" className="opacity-[.85] hover:underline">
-                                ARUA Centre of Excellence for Habitable & Sustainable Cities.
-                            </Link>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="Centre-for-Business-Law" smooth={true} duration={500}>
+                                <Link to="sectionVIII">Centre for Business Law and Policy (CBLP).</Link>
+                            </ScrollLink>
+                        </div>   <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="Centre-for-Digital-Humanities" smooth={true} duration={500}>
+                                <Link to="sectionVIII">Centre for Digital Humanities.</Link>
+                            </ScrollLink>
+                        </div>   <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="Centre-for-Economic-Policy" smooth={true} duration={500}>
+                                <Link to="sectionVIII">Centre for Economic Policy Analysis and Research (CEPAR).</Link>
+                            </ScrollLink>
+                        </div>   <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="Centre-for-Autism-and-Neurodevelopmental" smooth={true} duration={500}>
+                                <Link to="sectionVIII"> Centre for Autism and Neurodevelopmental Disorders (CAN-DO).</Link>
+                            </ScrollLink>
+                        </div>   <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="Centre-for-Autism-and-Neurodevelopmental" smooth={true} duration={500}>
+                                <Link to="sectionVIII"> Centre for Autism and Neurodevelopmental Disorders (CAN-DO).</Link>
+                            </ScrollLink>
                         </div>
-                        <div>
-                            <Link to="/symbols" className="opacity-[.85] hover:underline">
-                                Centre for African Regional Integration of Border Studies.
-                            </Link>
-                        </div>
-                        <div>
-                            <Link to="/symbols" className="opacity-[.85] hover:underline">
-                                Centre for Autism and Neurodevelopmental Disorders (CAN-DO).
-                            </Link>
-                        </div>
-                        <div>
-                            <Link to="/symbols" className="opacity-[.85] hover:underline">
-                                Centre for Business Law and Policy (CBLP).
-                            </Link>
-                        </div>
-                        <div>
-                            <Link to="/symbols" className="opacity-[.85] hover:underline">
-                                Centre for Digital Humanities.
-                            </Link>
-                        </div>
-                        <div>
-                            <Link to="/symbols" className="opacity-[.85] hover:underline">
-                                Centre for Economic Policy Analysis and Research (CEPAR).
-                            </Link>
-                        </div>
+                      
+                       
+                      
                         <div>
                             <Link to="/symbols" className="opacity-[.85] hover:underline">
                                 Centre for Entrepreneurship.

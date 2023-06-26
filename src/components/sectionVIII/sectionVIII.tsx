@@ -183,7 +183,7 @@ export function SectionVIII() {
             </Element>
 
             {/* seventh section */}
-            <Element name='Centre-for-Business-Law '>
+            <Element name='Centre-for-Business-Law'>
                 <TextHeading content='Centre for Business Law and Policy (CBLP).' />
                 <p>
                     THE CENTRE FOR BUSINESS LAW & POLICY
@@ -277,7 +277,7 @@ export function SectionVIII() {
             </Element>
 
             {/* ninth section */}
-            <Element name='Centre-for-Economic-Policy '>
+            <Element name='Centre-for-Economic-Policy'>
                 <TextHeading content='Centre for Economic Policy Analysis and Research (CEPAR).' />
                 <p>
                     CENTRE FOR ECONOMIC POLICY ANALYSIS AND RESEARCH (CEPAR)
