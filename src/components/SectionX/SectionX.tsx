@@ -24,7 +24,7 @@ export function SectionX() {
           laudantium beatae sed?
         </p>
       </Element>
-      <Element name="policy">
+      <Element name="dev">
         <TextHeading content="Policy on Staff Development Pattern " />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quos hic
@@ -33,7 +33,7 @@ export function SectionX() {
           laudantium beatae sed?
         </p>
       </Element>
-      <Element name="policy">
+      <Element name="drug">
         <TextHeading content="Policy on Mandatory Drug Test for newly admitted students" />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quos hic
@@ -42,7 +42,7 @@ export function SectionX() {
           laudantium beatae sed?
         </p>
       </Element>
-      <Element name="policy">
+      <Element name="boys">
         <TextHeading content="Policy on Boys Quaters Allocation" />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quos hic
