@@ -1,15 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./Navbar";
-import SectionI from "./SectionI";
 import SectionIII from "./SectionIII";
 import SectionIV from "./SectionIV";
 import SectionV from "./SectionV";
 import SectionVI from "./SectionVI";
 import SectionVII from "./SectionVII";
-import SectionVIII from "./SectionVIII";
 import SectionIX from "./SectionIX";
 import SectionX from "./SectionX";
-import SectionXI from "./SectionXI";
 import SectionXIII from "./SectionXIII";
 import Symbols from "./Symbols";
 import Home from "./Home";
@@ -26,6 +23,7 @@ import SportsCenter from "./SectionXi/SportsCenter";
 import PlacesOfWorship from "./SectionXi/PlacesOfWorship";
 import StaffSchool from "./SectionXi/StaffSchool";
 import SectionXII from "./SectionXII/SectionXII";
+import { SectionVIII } from "./sectionVIII/index";
 
 function App() {
   return (
