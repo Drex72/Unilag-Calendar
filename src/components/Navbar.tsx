@@ -287,6 +287,21 @@ const Navbar = () => {
                                 <Link to="sectionVIII"> Academic Publishing Centre (APC). </Link>
                             </ScrollLink>
                         </div>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="Arthur" smooth={true} duration={500}>
+                                <Link to="sectionVIII"> Arthur Mbanefo Centre. </Link>
+                            </ScrollLink>
+                        </div>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="ARUA" smooth={true} duration={500}>
+                                <Link to="sectionVIII">ARUA Centre of Excellence for Habitable & Sustainable Cities. </Link>
+                            </ScrollLink>
+                        </div>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="Centre-for-African-Regional" smooth={true} duration={500}>
+                                <Link to="sectionVIII"> Centre for African Regional Integration of Border Studies.</Link>
+                            </ScrollLink>
+                        </div>
 
                         <div>
                             <Link to="/symbols" className="opacity-[.85] hover:underline">
