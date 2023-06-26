@@ -25,6 +25,7 @@ import './styles.scss'
 import SportsCenter from "./SectionXi/SportsCenter";
 import PlacesOfWorship from "./SectionXi/PlacesOfWorship";
 import StaffSchool from "./SectionXi/StaffSchool";
+import SectionXII from "./SectionXII/SectionXII";
 
 function App() {
   return (
@@ -55,7 +56,6 @@ function App() {
             <Route path="/sectionVIII" element={<SectionVIII />} />
             <Route path="/sectionIX" element={<SectionIX />} />
             <Route path="/sectionX" element={<SectionX />} />
-            <Route path="/sectionXI" element={<SectionXI />} />
 
             <Route path="/sectionXI/i" element={<HousingUnit />} />
             <Route path="/sectionXI/ii" element={<MedicalCenter />} />
@@ -63,9 +63,7 @@ function App() {
             <Route path="/sectionXI/iv" element={<PlacesOfWorship />} />
             <Route path="/sectionXI/v" element={<StaffSchool />} />
 
-
-
-
+            <Route path="/sectionXII" element={<SectionXII />} />
             <Route path="/sectionXIII" element={<SectionXIII />} />
           </Routes>
         </div>
