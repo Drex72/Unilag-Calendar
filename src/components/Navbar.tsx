@@ -7,7 +7,7 @@ import { BsChevronUp } from "react-icons/bs"
 import { Link as ScrollLink } from 'react-scroll';
 
 const Navbar = () => {
-    const [activeLink, setActiveLink] = useState<number | null>(null);//useState to select items on the Navbar one at a time
+  const [activeLink, setActiveLink] = useState<number | null>(null); //useState to select items on the Navbar one at a time
 
     const [isOpen, setIsOpen] = useState<boolean[]>([false]);
 

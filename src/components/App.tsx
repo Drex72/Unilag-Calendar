@@ -12,12 +12,10 @@ import Home from "./Home";
 import History from "./SectionI/History";
 import Development from "./SectionI/Development";
 import ScrollToTop from "./ScrollToTop/ScrollToTop";
-import {
-  SectionII
-} from './SectionII/'
+import { SectionII } from "./SectionII/";
 import HousingUnit from "./SectionXi/HousingUnit";
 import MedicalCenter from "./SectionXi/MedicalCenter";
-import './styles.scss'
+import "./styles.scss";
 import SportsCenter from "./SectionXi/SportsCenter";
 import PlacesOfWorship from "./SectionXi/PlacesOfWorship";
 import StaffSchool from "./SectionXi/StaffSchool";
@@ -31,8 +29,11 @@ function App() {
       <ScrollToTop />
       <div className="App flex">
         <Navbar />
-        <div className="">
-
+        <div
+          style={{
+            width: "80%",
+          }}
+        >
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/symbols" element={<Symbols />} />
@@ -41,10 +42,8 @@ function App() {
             <Route path="/sectionI/i" element={<History />} />
             <Route path="/sectionI/ii" element={<Development />} />
 
-
             <Route path="/sectionII" element={<SectionII />} />
             <Route path="/sectionII/i" element={<SectionII />} />
-
 
             <Route path="/sectionIII" element={<SectionIII />} />
             <Route path="/sectionIV" element={<SectionIV />} />
