@@ -34,7 +34,7 @@ const SectionIII = () => {
                 <div className="opacity-[.85]"><Link to="/symbols">Security Unit.</Link></div>
                 <div className="opacity-[.85]"><Link to="/symbols">Corporate Affairs Directorate.</Link></div>
                 <div className="opacity-[.85]"><Link to="/symbols">Quality Assurance and SERVICOM Unit.</Link></div>
-                <div className="opacity-[.85]"><Link to="/symbols">ffice of Endowment.</Link></div>
+                <div className="opacity-[.85]"><Link to="/symbols">Office of Endowment.</Link></div>
             </div>
         </div>
     );
