@@ -1,11 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./Navbar";
-import {SectionIII} from "./SectionIII";
 import SectionIV from "./SectionIV";
 import SectionV from "./SectionV";
 import SectionVII from "./SectionVII";
 import SectionIX from "./SectionIX";
-// import SectionX from "./SectionX";
 import SectionXIII from "./SectionXIII";
 import Home from "./Home";
 import AcademicUnit from "./SectionVII/AcademicUnit";
@@ -35,6 +33,7 @@ import { SectionVIII } from "./sectionVIII/index";
 import SectionVI from "./SectionVI/SectionVI";
 import { SectionI } from "./SectionI/SectionI";
 import SectionX from "./SectionX/SectionX";
+import { SectionIII } from "./SectionIII/SectionIII";
 
 
 function App() {
@@ -49,10 +48,7 @@ function App() {
 
             <Route path="/sectionI" element={<SectionI />} />
             <Route path="/sectionII" element={<SectionII />} />
-
-
             <Route path="/sectionIII" element={<SectionIII />} />
-            <Route path="/sectionIII/i" element={<SectionIII />} />
             
             <Route path="/sectionIV" element={<SectionIV />} />
             <Route path="/sectionV" element={<SectionV />} />
