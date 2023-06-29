@@ -1,12 +1,19 @@
 $purple : rgba(103, 58, 183, 1);
 
+.image_container {
+    width: 250px;
+    height: 250px;
+    border-radius: 4px;
+    background: $purple;
+    margin-bottom: 1em;
+}
+
 .history {
     &_heading {
-        font-size: 30px;
+        font-size: 20px;
         color: #313131;
-        font-weight: bolder;
-        text-align: center;
-        margin-bottom: 1em;
+        font-weight: bold;
+        margin-bottom: .5em;
     }
 
     &_content {
@@ -18,8 +25,16 @@ $purple : rgba(103, 58, 183, 1);
             margin-block: 1em;
 
             li {
-                list-style-type: disc;
+                list-style: disc !important;
                 margin-left: 1em;
+            }
+        }
+
+        ol {
+            text-align: start;
+
+            li {
+                list-style: decimal;
             }
         }
     }
