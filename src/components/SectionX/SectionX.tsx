@@ -1,7 +1,6 @@
 import MainLayout from '../Layout/MainLayout';
 import TextHeading from '../TextHeading/TextHeading';
 import { Element } from 'react-scroll';
-import { Link } from 'react-router-dom';
 
 const SectionX = () => {
     return (
