@@ -1232,7 +1232,7 @@ const SectionVI = () => {
                             
                         </p>
                         <br />
-                        <table >
+                        <table className='border-spacing-2  section_6_table' >
                             <thead>
                                 <tr>
                                     <th>Credit Unit</th>
@@ -1255,6 +1255,7 @@ const SectionVI = () => {
                                     <td>4.50-5.00</td>
                                     <td>First Class</td>
                                 </tr>
+                              
                             </tbody>
                             <tbody>
                                 <tr >

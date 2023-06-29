@@ -1000,13 +1000,15 @@ export function SectionII() {
       </Element>
       <Element name="pro-chancellors">
         <TextHeading content='Pro Chancellors and Chairman of Council' />
-        <p>
-          <h4> Pro-Chancellor and Chairman of Council. </h4>
-          <p>Distinguished Prince (Dr.) Olarenwaju Adeyemi Tejuoso</p>
-
-          <h4>Pro-Chancellor</h4>
-          <p>Professor Folasade Tolulope Ogunsola, FAS</p>
-        </p>
+        <ImageList>
+          <SingleImageItem content={(
+            <div>
+              <h4> Pro-Chancellor and Chairman of Council. </h4>
+              <p>Distinguished Prince (Dr.) Olarenwaju Adeyemi Tejuoso</p>
+              <p>Federal Republic of Nigeria</p>
+            </div>
+          )} />
+        </ImageList>
       </Element>
       <Element name="council-members">
         <TextHeading content='Council Members' />
@@ -1019,7 +1021,7 @@ export function SectionII() {
           )} />
           <SingleImageItem content={(
             <div>
-              <h4>Pro-Chancellor</h4>
+              <h4>Vice-Chancellor</h4>
               <p>Professor Folasade Tolulope Ogunsola, FAS</p>
             </div>
           )} />
@@ -1045,36 +1047,61 @@ export function SectionII() {
       </Element>
       <Element name="principal-officers">
         <TextHeading content='Principal Officers' />
-        <p>
-          <p>
-            MBChB, FCMPath, FCWACP, FRCPath(UK), Ph.D (Cardiff), FNAMed, FAMeds,
-            FAS
-          </p>
-          <p>Vice-Chancellor</p>
-          <p>Professor Bolanle Olufunmilayo Oboh</p>
-          <p>B.Sc., M.Sc. Ph.D. (Ife)</p>
-          <p>Deputy Vice-Chancellor (Academics & Research)</p>
-          <p>Professor Ayodele Victoria Atsenuwa</p>
-          <p>LLB (Ife) LL.M (Lond.) LL.M (Warwick) BL</p>
-          <p>Deputy Vice-Chancellor (Development Services)</p>
-          <p>Professor Lucian Obinnaya Chukwu</p>
-          B.Sc. (Hons), M.Phil, Ph.D. (Lagos), PGCICM (Rhodes Island, USA),
-          FWASOT
-          <p>
-            B.Sc. (Hons), M.Phil, Ph.D. (Lagos), PGCICM (Rhodes Island, USA),
-            FWASOT
-          </p>
-          <p>Deputy Vice-Chancellor (Management Services)</p>
-          <p>Oladejo Azeez, Esq</p>
-          <p>B.SC., M.Sc., LL. B (Lagos), LL.M/Wits), B.L, FNIM, MNIPR</p>
-          <p>Registrar</p>
-          <p>Mrs. Oluwafunmilola Yetunde Adekule</p>
-          <p>B.Sc., M.Sc. (Lagos), FCA</p>
-          <p>Bursar</p>
-          <p>Professor Yetunde Abosede Zaid</p>
-          <p>B.A (Ogun State Univ.), MLS, Ph.D. (U.I), CLN</p>
-          <p>University Librarian</p>
-        </p>
+        <ImageList>
+
+          <SingleImageItem content={(
+            <div>
+              <h4>Vice-Chancellor</h4>
+              <p>Professor Folasade Tolulope Ogunsola, FAS</p>
+              <p>MBChB, FCMPath, FCWACP, FRCPath(UK), Ph.D (Cardiff), FNAMed, FAMeds, FAS</p>
+            </div>
+          )} />
+          <SingleImageItem content={(
+            <div>
+              <h4>Deputy Vice-Chancellor (Academics & Research)</h4>
+              <p>Professor Bolanle Olufunmilayo Oboh</p>
+              <p>B.Sc., M.Sc.  Ph.D. (Ife)</p>
+            </div>
+          )} />
+          <SingleImageItem content={(
+            <div>
+              <h4>Deputy Vice-Chancellor (Development Services)</h4>
+              <p>Professor Ayodele Victoria Atsenuwa</p>
+              <p>LLB (Ife) LL.M (Lond.) LL.M (Warwick) BL</p>
+            </div>
+          )} />
+          <SingleImageItem content={(
+            <div>
+              <h4>Deputy Vice-Chancellor (Management Services)</h4>
+              <p>Professor Lucian Obinnaya Chukwu</p>
+              <p>B.Sc. (Hons), M.Phil, Ph.D. (Lagos), PGCICM (Rhodes Island, USA), FWASOT</p>
+            </div>
+          )} />
+
+          <SingleImageItem content={(
+            <div>
+              <h4>Registrar</h4>
+              <p>Oladejo Azeez, Esq</p>
+              <p>B.SC., M.Sc., LL. B (Lagos), LL.M/Wits), B.L, FNIM, MNIPR</p>
+            </div>
+          )} />
+
+          <SingleImageItem content={(
+            <div>
+              <h4>Bursar</h4>
+              <p>Mrs. Oluwafunmilola Yetunde Adekunle</p>
+              <p>B.Sc., M.Sc. (Lagos), FCA</p>
+            </div>
+          )} />
+
+          <SingleImageItem content={(
+            <div>
+              <h4>University Librarian</h4>
+              <p>Professor Yetunde Abosede Zaid</p>
+              <p>B.A (Ogun State Univ.), MLS, Ph.D. (U.I), CLN</p>
+            </div>
+          )} />
+        </ImageList>
       </Element>
       <Element name="senate">
         <TextHeading content='Senate' />
@@ -1116,12 +1143,31 @@ export function SectionII() {
             </div>
           )} />
         </ImageList>
+        <TextHeading content='Authorities and Members of the University' textAlignment='start' size='sm' />
       </Element>
       <Element name="congregation">
         <TextHeading content='Congregation' />
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, aperiam voluptatem quisquam laudantium accusamus quam voluptatum repudiandae voluptas cupiditate quaerat rem dolorum perferendis? Vero sequi deserunt nobis. Error dolorem magnam, soluta eveniet optio commodi quos? Veritatis doloribus quod omnis, velit exercitationem et beatae quas, perferendis quisquam sit ipsum harum voluptatum cumque enim provident fugit distinctio. Ratione molestiae numquam ipsa asperiores, ad nemo est id quae recusandae non doloremque cumque, voluptatibus reprehenderit deserunt blanditiis impedit facilis voluptate quos! Sit vitae aperiam deserunt dicta possimus magnam tempora enim odit suscipit neque ipsum cumque illum optio, ab soluta nobis tenetur dolorum! Ab dolor voluptates vel deleniti dicta corporis? Minima totam placeat velit et, laboriosam numquam dignissimos odit eius omnis aut ad voluptates reprehenderit nulla maiores unde amet? Praesentium perferendis dignissimos debitis magni incidunt placeat ipsum, natus, adipisci velit vel molestias odit. In iure adipisci ad velit quos non dignissimos. Earum sit, possimus autem dignissimos recusandae nam, sint officiis odio aut delectus obcaecati? A dignissimos illo ullam fugiat iusto voluptas blanditiis soluta tempore. Perspiciatis optio omnis consequatur nemo modi sed reprehenderit quo molestias similique adipisci animi quas ut facere ex error aliquam doloremque molestiae alias voluptas natus dolorem tempore, a totam. Aliquid ipsum excepturi perspiciatis nostrum. Doloremque quisquam, autem adipisci architecto, repellendus minus accusantium eum explicabo corporis dolores earum! Obcaecati, atque eaque. Aliquid, culpa totam consequatur modi enim qui impedit quasi quam illum dolor fugiat! Officia, cumque! Quia corrupti asperiores reprehenderit eos quaerat totam dolorem iure ad tenetur aut. Impedit vel eligendi vitae quaerat, dolore laboriosam repellendus voluptatibus iure. Omnis veritatis saepe voluptates ea, debitis sed quibusdam soluta tempora! Iure consequatur officia explicabo dolores earum exercitationem accusantium quibusdam minus voluptatibus, cumque quo consequuntur molestiae dolor deleniti esse distinctio vitae repellendus maiores itaque debitis omnis molestias dicta. Ad fuga nostrum fugit reprehenderit in beatae. Magni neque tempora sapiente optio facilis ipsum voluptatum. Veniam, id? Eum ratione mollitia debitis officiis a, inventore fuga, qui fugiat aliquid tempora, magnam saepe iure in ullam vitae dolorum perspiciatis ea repellat odio. Exercitationem dolore quidem delectus sequi tempora, ratione rerum ipsam expedita necessitatibus ad animi distinctio maxime reprehenderit cumque repudiandae, ea omnis adipisci! Aspernatur dolore vitae laudantium voluptate a ratione mollitia maxime, totam sed quo dicta fugiat quia provident. Aliquam labore optio facilis nemo, corporis quaerat est nisi quo ut alias impedit itaque in natus dolor iste ducimus iure consectetur fugit vel repellat veniam, dignissimos sed. Delectus dolores eum, fuga eveniet eligendi nulla corporis. Distinctio quia ab delectus. Fugiat, repellendus iure! Perferendis, ea architecto doloribus nisi qui ullam cum aliquam quam labore est iste aut alias iure sint inventore fugiat quasi suscipit dolores quod fuga minima ad facilis eligendi! Distinctio, numquam voluptatem. Fugiat, minus numquam saepe, sapiente fugit ex ut assumenda modi iusto exercitationem rerum adipisci soluta. Illum officia nostrum reprehenderit nisi eligendi dolore dolores maiores nemo, nihil quia excepturi facere, suscipit vel natus dolorem deserunt debitis fugit sequi mollitia rerum voluptas eius. Debitis qui possimus quaerat nulla velit porro dicta mollitia quos provident reprehenderit sunt sapiente quo voluptatibus libero, aut sed? Neque blanditiis provident assumenda repellendus adipisci quia ratione aliquam laboriosam dolores iure architecto voluptas reiciendis hic dignissimos autem eius nobis, modi dicta est! Voluptatem, non. Tempora aliquid perspiciatis ipsum, dolorum eius consequatur cupiditate a dicta aspernatur ut mollitia repellat nobis sunt? Quae obcaecati molestiae, aut magni totam dignissimos facere. Blanditiis aliquid vitae facere harum, autem quas eius minus, itaque earum non possimus! Fugiat excepturi corporis nemo necessitatibus eligendi quae itaque consequatur odio! Sunt, aliquid officiis alias voluptatibus nemo est praesentium excepturi provident eius vel nobis iusto, qui iste molestias culpa necessitatibus quae distinctio facilis dignissimos dolorem perferendis corporis minus eum doloremque! Reiciendis, voluptate quia? Ex magni nostrum sed itaque atque ad aliquam aut, blanditiis voluptatibus corporis sapiente provident, inventore distinctio perspiciatis consequatur voluptates, nam laudantium voluptatem eaque quae repudiandae at consectetur. Voluptates itaque deleniti laborum tempora consequuntur, voluptate excepturi odio at vel eos dolores laudantium distinctio temporibus quam? Earum, ea autem sequi perferendis natus aut, velit quod necessitatibus obcaecati optio numquam! Similique, commodi consequuntur eveniet impedit reiciendis assumenda? Aut veritatis enim, tenetur ipsam veniam soluta fuga? Provident, veritatis, tempore eveniet earum modi quo eum esse assumenda id, commodi magnam soluta laboriosam ducimus eos nulla minima aut officiis excepturi cum at fugit labore autem illo recusandae. Esse explicabo officiis ipsum libero repellat dolorem fugit ea architecto, magni, perspiciatis cupiditate placeat, facere dolor est earum quasi possimus! Non laborum modi numquam incidunt libero deleniti quis asperiores, sequi in minus ipsum exercitationem animi quasi debitis, quisquam culpa distinctio magni nostrum aliquid. Iure labore autem perferendis et a eos explicabo reiciendis laboriosam sit eaque accusamus, voluptas ut tempore? Quae, debitis reiciendis. Nemo corporis expedita sed dolor dolore, consectetur voluptatibus non eius atque recusandae ipsum, harum fuga molestias earum? Velit accusamus tenetur animi magni, fugiat eveniet cumque officia? Sequi iusto tempore labore modi voluptatem inventore! Rem tempore facere earum a, odit sed qui. Nihil alias, odit quasi est, praesentium voluptates recusandae eligendi repudiandae laboriosam ad itaque aspernatur expedita, laudantium velit dolores commodi ipsa excepturi ut qui omnis laborum nulla. Provident, dignissimos, totam reprehenderit perspiciatis aperiam recusandae necessitatibus et praesentium quae cum impedit harum error. Repellendus harum ea ducimus laboriosam deleniti natus velit. Atque nisi quos quisquam vitae molestiae assumenda maxime quibusdam reiciendis in! Deleniti porro voluptatum eos tenetur aliquam minima illum quam nihil. Nisi qui architecto illum natus eveniet, nulla minima odit aspernatur quae debitis atque nostrum tenetur minus sed aliquid temporibus explicabo! Nemo nesciunt laudantium magni dignissimos sint porro, rem delectus exercitationem quibusdam nisi perferendis sequi explicabo dolores dicta minus ad deserunt dolor eos? Pariatur beatae ducimus, consectetur ipsa aliquid quibusdam laborum voluptas esse in eius impedit repellat explicabo maxime sapiente dolores asperiores quam. Voluptatum nesciunt, possimus ullam libero iusto id quos est consequuntur. Fugiat libero eaque aliquid ad magni voluptas nam, qui sit fuga optio commodi. Quasi dolores similique cumque non modi suscipit exercitationem consequuntur, adipisci perspiciatis, corporis impedit ea incidunt est corrupti quam fugiat saepe possimus voluptatum ab molestias excepturi voluptates reprehenderit voluptate cupiditate. Voluptatem rerum doloribus modi tempora alias.
-        </p>
+        <ImageList>
+          <SingleImageItem content={(
+            <div>
+              <h4>Member</h4>
+              <p>Professor Owolabi Kuye</p>
+            </div>
+          )} />
+          <SingleImageItem content={(
+            <div>
+              <h4>Member</h4>
+              <p>Professor Michael Adeloye Adebamowo </p>
+            </div>
+          )} />
+          <SingleImageItem content={(
+            <div>
+              <h4>Member</h4>
+              <p>Engr. Ifeoluwa Olushola Oyedele, FNSE</p>
+
+            </div>
+          )} />
+        </ImageList>
       </Element>
       <Element name="provost-and-deans">
         <TextHeading content='Provost and Deans' />
