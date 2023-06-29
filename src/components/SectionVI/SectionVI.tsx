@@ -1232,7 +1232,7 @@ const SectionVI = () => {
                             
                         </p>
                         <br />
-                        <table >
+                        <table className='border-spacing-2  section_6_table' >
                             <thead>
                                 <tr>
                                     <th>Credit Unit</th>
