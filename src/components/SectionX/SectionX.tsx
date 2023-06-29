@@ -122,7 +122,7 @@ const SectionX = () => {
                 <p>(a) Promote among newly admitted students the value the University attaches to academic community that is devoid of the deleterious effects of the use of drug and other psychotropic substances as defined in this Policy;</p>
                 <p>(b) Discourage students upon registration from engaging in the use of drugs;</p>
                 <p>(c) Minimize in the University incidence of lawlessness, commission of crimes, propagation and sustenance of unlawful associations and cult activities, destruction of lives and properties and disruption of activities in the University, which are often associated with drug abuse;</p>
-                <p>(d) Encourage students partake to engage in academic and social activities with decorum and respect to one another and to teachers and university administrators, with a view to deploying their talents for full development of their capabilities in all respects.</p>
+                <p>(d) Encourage students partake to engage in academic and social activities with decorum and respect to one another and to teachers and university administrators, with a view to deploying their talents for full development of their capabilities in all respects. </p>
                 <br />
                 <p><strong>2. Definition of Drug</strong></p>
                 <p>For the purposes of this Policy:</p>
