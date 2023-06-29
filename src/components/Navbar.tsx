@@ -328,157 +328,154 @@ const Navbar = () => {
                             <ScrollLink to="Centre-for-Business-Law" smooth={true} duration={500}>
                                 <Link to="sectionVIII">Centre for Business Law and Policy (CBLP).</Link>
                             </ScrollLink>
-                        </div>   <div className="opacity-[.85] hover:underline">
+                        </div>
+                        <div className="opacity-[.85] hover:underline">
                             <ScrollLink to="Centre-for-Digital-Humanities" smooth={true} duration={500}>
                                 <Link to="sectionVIII">Centre for Digital Humanities.</Link>
                             </ScrollLink>
-                        </div>   <div className="opacity-[.85] hover:underline">
+                        </div>
+                        <div className="opacity-[.85] hover:underline">
                             <ScrollLink to="Centre-for-Economic-Policy" smooth={true} duration={500}>
                                 <Link to="sectionVIII">Centre for Economic Policy Analysis and Research (CEPAR).</Link>
                             </ScrollLink>
-                        </div>   <div className="opacity-[.85] hover:underline">
-                            <ScrollLink to="Centre-for-Autism-and-Neurodevelopmental" smooth={true} duration={500}>
-                                <Link to="sectionVIII"> Centre for Autism and Neurodevelopmental Disorders (CAN-DO).</Link>
-                            </ScrollLink>
-                        </div>   <div className="opacity-[.85] hover:underline">
-                            <ScrollLink to="Centre-for-Autism-and-Neurodevelopmental" smooth={true} duration={500}>
-                                <Link to="sectionVIII"> Centre for Autism and Neurodevelopmental Disorders (CAN-DO).</Link>
+                        </div>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="Centre-for-Entrepreneurship." smooth={true} duration={500}>
+                                <Link to="sectionVIII">Centre for Entrepreneurship.</Link>
                             </ScrollLink>
                         </div>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="Centre-for-Environmental-Human" smooth={true} duration={500}>
+                                <Link to="sectionVIII">Centre for Environmental Human Resources Development (CENHURD).</Link>
+                            </ScrollLink>
+                        </div>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="Centre-for-Genomics" smooth={true} duration={500}>
+                                <Link to="sectionVIII">Centre for Genomics of Non Communicable Diseases and Personalized Health Care (CGNPH).</Link>
+                            </ScrollLink>
+                        </div>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="Centre-for-Human" smooth={true} duration={500}>
+                                <Link to="sectionVIII">Centre for Human and Zoonotic Virology (CHAZVY).</Link>
+                            </ScrollLink>
+                        </div>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="Centre-for-Infection" smooth={true} duration={500}>
+                                <Link to="sectionVIII">Centre for Infection Control and Patient Safety (CICAPS).</Link>
+                            </ScrollLink>
+                        </div>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="Centre-for-Information" smooth={true} duration={500}>
+                                <Link to="sectionVIII">Centre for Information Technology and Systems (CITS)</Link>
+                            </ScrollLink>
+                        </div>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="Centre-for-Malaria-Research" smooth={true} duration={500}>
+                                <Link to="sectionVIII">Centre for Malaria Research, Diagnostics, Training & Policy.</Link>
+                            </ScrollLink>
+                        </div>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="Centre-for-Multi-modal" smooth={true} duration={500}>
+                                <Link to="sectionVIII">Centre for Multi-modal Transport Studies (CMTS).</Link>
+                            </ScrollLink>
+                        </div>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="Centre-for-Neurology-Studies." smooth={true} duration={500}>
+                                <Link to="sectionVIII">Centre for Neurology Studies.</Link>
+                            </ScrollLink>
+                        </div>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="Confucius-Institute" smooth={true} duration={500}>
+                                <Link to="sectionVIII">Confucius Institute.</Link>
+                            </ScrollLink>
+                        </div>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="Entrepreneurship-and-Skill" smooth={true} duration={500}>
+                                <Link to="sectionVIII">Entrepreneurship and Skill Development Centre / ARUA.</Link>
+                            </ScrollLink>
+                        </div>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="Centre-for-Excellence" smooth={true} duration={500}>
+                                <Link to="sectionVIII">Centre of Excellence for Unemployment and Skills Development.</Link>
+                            </ScrollLink>
+                        </div>
+
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="Human-Resources" smooth={true} duration={500}>
+                                <Link to="sectionVIII">Human Resources and Development Centre (HRDC).</Link>
+                            </ScrollLink>
+                        </div>
+
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="CENTRE-FOR-HOUSING-AND-SUSTAINABLE-DEVELOPMENT" smooth={true} duration={500}>
+                                <Link to="sectionVIII">CENTRE FOR HOUSING AND SUSTAINABLE DEVELOPMENT</Link>
+                            </ScrollLink>
+                        </div>
 
 
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="Institute-of-African" smooth={true} duration={500}>
+                                <Link to="sectionVIII">Institute of African and Diaspora Studies (IADS)</Link>
+                            </ScrollLink>
+                        </div>
 
-                        <div>
-                            <Link to="/symbols" className="opacity-[.85] hover:underline">
-                                Centre for Entrepreneurship.
-                            </Link>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="Institute-of-Continuing" smooth={true} duration={500}>
+                                <Link to="sectionVIII">Institute of Continuing Education (ICE).</Link>
+                            </ScrollLink>
                         </div>
-                        <div>
-                            <Link to="/symbols" className="opacity-[.85] hover:underline">
-                                Centre for Environmental Human Resources Development (CENHURD).
-                            </Link>
+
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="Institute-of-Maritime-Studies" smooth={true} duration={500}>
+                                <Link to="sectionVIII">Institute of Maritime Studies.</Link>
+                            </ScrollLink>
                         </div>
-                        <div>
-                            <Link to="/symbols" className="opacity-[.85] hover:underline">
-                                Centre for Genomics of Non Communicable Diseases and Personalized
-                                Health Care (CGNPH).
-                            </Link>
+
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="Institute-of-Nigeria" smooth={true} duration={500}>
+                                <Link to="sectionVIII">Institute of Nigeria-China Development Studies.</Link>
+                            </ScrollLink>
                         </div>
-                        <div>
-                            <Link to="/symbols" className="opacity-[.85] hover:underline">
-                                Centre for Human and Zoonotic Virology (CHAZVY).
-                            </Link>
+
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="National-Centre" smooth={true} duration={500}>
+                                <Link to="sectionVIII">National Centre for Energy Efficiency and Conservation</Link>
+                            </ScrollLink>
                         </div>
-                        <div>
-                            <Link to="/symbols" className="opacity-[.85] hover:underline">
-                                Centre for Infection Control and Patient Safety (CICAPS).
-                            </Link>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="NITDA-Information" smooth={true} duration={500}>
+                                <Link to="sectionVIII">NITDA Information Technology Hub.</Link>
+                            </ScrollLink>
                         </div>
-                        <div>
-                            <Link to="/symbols" className="opacity-[.85] hover:underline">
-                                Centre for Information Technology and Systems (CITS).
-                            </Link>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="TETFUND-Centre-of-Excellence-for-Urology" smooth={true} duration={500}>
+                                <Link to="sectionVIII">TETFUND Centre of Excellence for Urology and Kidney Research and Training (TCEUKRT) .</Link>
+                            </ScrollLink>
                         </div>
-                        <div>
-                            <Link to="/symbols" className="opacity-[.85] hover:underline">
-                                Centre for Malaria Research, Diagnostics, Training & Policy
-                            </Link>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="TETFUND-Centre-of-Excellence-in-Biodiversity" smooth={true} duration={500}>
+                                <Link to="sectionVIII">TETFUND Centre of Excellence in Biodiversity, Conservation and Ecosystem Management.</Link>
+                            </ScrollLink>
                         </div>
-                        <div>
-                            <Link to="/symbols" className="opacity-[.85] hover:underline">
-                                Centre for Multi-modal Transport Studies (CMTS).
-                            </Link>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="West-African-Regional-Research" smooth={true} duration={500}>
+                                <Link to="sectionVIII">West African Regional Research and Training Centre for Low Vision and Rehabilitation (WARTCLOR)</Link>
+                            </ScrollLink>
                         </div>
-                        <div>
-                            <Link to="/symbols" className="opacity-[.85] hover:underline">
-                                Centre for Neurology Studies.
-                            </Link>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="World-Bank-Centre-of-Excellence-for-Drug-Research" smooth={true} duration={500}>
+                                <Link to="sectionVIII">World Bank Centre of Excellence for Drug Research, Herbal Medicine Development & Regulatory Science (ACEDHARS).</Link>
+                            </ScrollLink>
                         </div>
-                        <div>
-                            <Link to="/symbols" className="opacity-[.85] hover:underline">
-                                Confucius Institute.
-                            </Link>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="World-Bank-Centre-of-Excellence-in-Multimedia" smooth={true} duration={500}>
+                                <Link to="sectionVIII">World Bank Centre of Excellence in Multimedia and Cinematography (COEX).</Link>
+                            </ScrollLink>
                         </div>
-                        <div>
-                            <Link to="/symbols" className="opacity-[.85] hover:underline">
-                                Entrepreneurship and Skill Development Centre / ARUA.
-                            </Link>
-                        </div>
-                        <div>
-                            <Link to="/symbols" className="opacity-[.85] hover:underline">
-                                Centre of Excellence for Unemployment and Skills Development.
-                            </Link>
-                        </div>
-                        <div>
-                            <Link to="/symbols" className="opacity-[.85] hover:underline">
-                                Human Resources and Development Centre (HRDC).
-                            </Link>
-                        </div>
-                        <div>
-                            <Link to="/symbols" className="opacity-[.85] hover:underline">
-                                Institute of African and Diaspora Studies (IADS).
-                            </Link>
-                        </div>
-                        <div>
-                            <Link to="/symbols" className="opacity-[.85] hover:underline">
-                                Institute of Continuing Education (ICE).
-                            </Link>
-                        </div>
-                        <div>
-                            <Link to="/symbols" className="opacity-[.85] hover:underline">
-                                Institute of Maritime Studies.
-                            </Link>
-                        </div>
-                        <div>
-                            <Link to="/symbols" className="opacity-[.85] hover:underline">
-                                Institute of Nigeria- China Development Studies.
-                            </Link>
-                        </div>
-                        <div>
-                            <Link to="/symbols" className="opacity-[.85] hover:underline">
-                                National Centre for Energy Efficiency and Conservation
-                            </Link>
-                        </div>
-                        <div>
-                            <Link to="/symbols" className="opacity-[.85] hover:underline">
-                                NITDA Information Technology Hub.
-                            </Link>
-                        </div>
-                        <div>
-                            <Link to="/symbols" className="opacity-[.85] hover:underline">
-                                TETFUND Centre of Excellence for Urology and Kidney Research and
-                                Training (TCEUKRT) .
-                            </Link>
-                        </div>
-                        <div>
-                            <Link to="/symbols" className="opacity-[.85] hover:underline">
-                                TETFUND Centre of Excellence in Biodiversity, Conservation and
-                                Ecosystem Management.
-                            </Link>
-                        </div>
-                        <div>
-                            <Link to="/symbols" className="opacity-[.85] hover:underline">
-                                West African Regional Research and Training Centre for Low Vision
-                                and Rehabilitation (WARTCLOR).
-                            </Link>
-                        </div>
-                        <div>
-                            <Link to="/symbols" className="opacity-[.85] hover:underline">
-                                World Bank Centre of Excellence for Drug Research, Herbal Medicine
-                                Development & Regulatory Science (ACEDHARS).
-                            </Link>
-                        </div>
-                        <div>
-                            <Link to="/symbols" className="opacity-[.85] hover:underline">
-                                World Bank Centre of Excellence in Multimedia and Cinematography
-                                (COEX).
-                            </Link>
-                        </div>
-                        <div>
-                            <Link to="/symbols" className="opacity-[.85] hover:underline">
-                                World Bank Sustainable Procurement, Environmental and Social
-                                Standards Centre of Excellence (SPESSCE).
-                            </Link>
+                        <div className="opacity-[.85] hover:underline">
+                            <ScrollLink to="World-Bank-Sustainable-Procurement" smooth={true} duration={500}>
+                                <Link to="sectionVIII">World Bank Sustainable Procurement, Environmental and Social Standards Centre of Excellence (SPESSCE).</Link>
+                            </ScrollLink>
                         </div>
                     </div>
                     ) :
