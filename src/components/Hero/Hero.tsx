@@ -49,15 +49,17 @@ const Hero = () => {
                 </motion.div>
 
                 <motion.div className="hero_content_wrapper_right">
+                    <div className='w-[350px] h-[350px]'>
+                        <motion.img
+                            src={require("../../assets/img/Maze.png")}
+                            alt="bg"
+                            initial={{ x: 200, opacity: 0 }}
+                            animate={{ x: 0, opacity: 1 }}
+                            transition={{ duration: 0.5, delay: 0.8 }}
+                            className='w-full h-full'
+                        />
+                    </div>
 
-
-                    <motion.img
-                        src={require("../../assets/img/Symbols.png")}
-                        alt="bg"
-                        initial={{ x: 200, opacity: 0 }}
-                        animate={{ x: 0, opacity: 1 }}
-                        transition={{ duration: 0.5, delay: 0.8 }}
-                    />
 
                     <div className="mx-auto max-w-[600px] bg-purple rounded-lg p-2 mt-4">
                         <h1 className="text-center text-white text-[35px]">
