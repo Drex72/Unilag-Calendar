@@ -1233,6 +1233,11 @@ const SectionVI = () => {
                                 <tr>
                                     <th>Credit Unit</th>
                                     <th>Percentage Scores</th>
+                                    <th>Letter Grades</th>
+                                    <th>Grade Points</th>
+                                    <th>Grade Point Average(GPA)</th>
+                                    <th>Cumulative Grade Point Average (CGPA)</th>
+                                    <th>Class of Degree</th>
                                 </tr>
                             </thead>
 
