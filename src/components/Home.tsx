@@ -4,7 +4,7 @@ import Hero from "./Hero/Hero";
 
 const Home = () => {
   return (
-    <div className="pt-3 w-full h-screen overflow-y-scroll animate__animated animate__fadeIn ">
+    <div className="ml-[200px] w-[100vw-210px] overflow-x-scroll pt-3 h-screen overflow-y-scroll animate__animated animate__fadeIn ">
       <div >
         <img
           src={require("./unilag-logo.jpeg")}

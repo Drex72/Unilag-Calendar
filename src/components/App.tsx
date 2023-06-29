@@ -7,10 +7,7 @@ import SectionVII from "./SectionVII";
 import SectionIX from "./SectionIX";
 import SectionX from "./SectionX";
 import SectionXIII from "./SectionXIII";
-import Symbols from "./Symbols";
 import Home from "./Home";
-import History from "./SectionI/History";
-import Development from "./SectionI/Development";
 import AcademicUnit from "./SectionVII/AcademicUnit";
 import Arts from "./SectionVII/arts";
 import CmulBASIC from "./SectionVII/cmul-basic";
@@ -26,7 +23,7 @@ import Science from "./SectionVII/science";
 import SocialSCIENCE from "./SectionVII/social-science";
 import SPGS from "./SectionVII/spgs";
 import ScrollToTop from "./ScrollToTop/ScrollToTop";
-import { SectionII } from "./SectionII/";
+import { SectionII } from "./SectionII/SectionII";
 import HousingUnit from "./SectionXi/HousingUnit";
 import MedicalCenter from "./SectionXi/MedicalCenter";
 import "./styles.scss";
@@ -36,6 +33,7 @@ import StaffSchool from "./SectionXi/StaffSchool";
 import SectionXII from "./SectionXII/SectionXII";
 import { SectionVIII } from "./sectionVIII/index";
 import SectionVI from "./SectionVI/SectionVI";
+import { SectionI } from "./SectionI/SectionI";
 
 function App() {
   return (
@@ -43,21 +41,12 @@ function App() {
       <ScrollToTop />
       <div className="App flex">
         <Navbar />
-        <div
-          style={{
-            width: "80%",
-          }}
-        >
+        <div>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/symbols" element={<Symbols />} />
 
-            <Route path="/sectionI" element={<History />} />
-            <Route path="/sectionI/i" element={<History />} />
-            <Route path="/sectionI/ii" element={<Development />} />
-
+            <Route path="/sectionI" element={<SectionI />} />
             <Route path="/sectionII" element={<SectionII />} />
-            <Route path="/sectionII/i" element={<SectionII />} />
 
             <Route path="/sectionIII" element={<SectionIII />} />
             <Route path="/sectionIV" element={<SectionIV />} />
@@ -68,10 +57,10 @@ function App() {
             <Route path="/sectionIX" element={<SectionIX />} />
             <Route path="/sectionX" element={<SectionX />} />
 
-            
+
             <Route path="/sectionVII" element={<SectionVII />} />
             <Route path="/sectionVII/academic-unit" element={<AcademicUnit />} />
-            <Route path="/sectionVII/i" element={<Arts/>} />
+            <Route path="/sectionVII/i" element={<Arts />} />
             <Route path="/sectionVII/ii" element={<CmulBASIC />} />
             <Route path="/sectionVII/iii" element={<CmulCLINICAL />} />
             <Route path="/sectionVII/iv" element={<CmulDENTAL />} />

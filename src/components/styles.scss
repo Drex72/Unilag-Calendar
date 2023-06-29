@@ -1,5 +1,13 @@
 $purple : rgba(103, 58, 183, 1);
 
+.image_container {
+    width: 250px;
+    height: 250px;
+    border-radius: 4px;
+    background: $purple;
+    margin-bottom: 1em;
+}
+
 .history {
     &_heading {
         font-size: 20px;
@@ -24,6 +32,7 @@ $purple : rgba(103, 58, 183, 1);
 
         ol {
             text-align: start;
+
             li {
                 list-style: decimal;
             }
