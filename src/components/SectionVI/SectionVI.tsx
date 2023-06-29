@@ -1251,6 +1251,7 @@ const SectionVI = () => {
                                     <td>4.50-5.00</td>
                                     <td>First Class</td>
                                 </tr>
+                              
                             </tbody>
                         </table>
                         <table>
