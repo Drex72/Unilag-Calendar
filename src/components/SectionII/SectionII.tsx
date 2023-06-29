@@ -16,7 +16,7 @@ export function SectionII() {
 
           <div>
           <TextHeading content='Visitor' /> 
-            <img src={require('../../assets/img/Tinubu1.jpg')} alt='person 1 image' />
+            <img src={require('../../assets/img/Tinubu.jpg')} alt='person 1 image' />
             <p>His Excellency</p>
               <p>Bola Ahmed Tinubu, GCFR</p>
               <p> President, Commander-in-Chief of the Armed Forces,</p>
