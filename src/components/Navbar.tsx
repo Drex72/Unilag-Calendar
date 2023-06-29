@@ -653,10 +653,26 @@ const Navbar = () => {
                     </Link>
                     {isOpen[9] ?
                         (<div className="space-y-4 p-3">
-                            <div className="opacity-[.85] hover:underline"><Link to="/symbols">Policies of the University.</Link></div>
-                            <div className="opacity-[.85] hover:underline"><Link to="/symbols">Policy concerning the employment of pregnant women.</Link></div>
-                            <div className="opacity-[.85] hover:underline"><Link to="/symbols">Policy on Staff Development Pattern.</Link></div>
-                            <div className="opacity-[.85] hover:underline"><Link to="/symbols">Policy on Mandatory Drug Test for newly admitted Students.</Link></div>
+                            <div className="opacity-[.85] hover:underline">
+                                <ScrollLink to="university-policies" smooth={true} duration={500}>
+                                    <Link to="/sectionX">Policies of the University.</Link>
+                                </ScrollLink>
+                            </div>
+                            <div className="opacity-[.85] hover:underline">
+                                <ScrollLink to="policy-concerning-the-employment-of-pregnant-women" smooth={true} duration={500}>
+                                    <Link to="/sectionX">Policy concerning the employment of pregnant women.</Link>
+                                </ScrollLink>
+                            </div>
+                            <div className="opacity-[.85] hover:underline">
+                                <ScrollLink to="policy-on-staff-development-pattern" smooth={true} duration={500}>
+                                    <Link to="/sectionX">Policy on Staff Development Pattern.</Link>
+                                </ScrollLink>
+                            </div>
+                            <div className="opacity-[.85] hover:underline">
+                                <ScrollLink to="POLICY-ON-MANDATORY-DRUG-TEST-FOR-NEWLY-ADMITTED-STUDENTS" smooth={true} duration={500}>
+                                    <Link to="/sectionX">Policy on Mandatory Drug Test for newly admitted Students.</Link>
+                                </ScrollLink>
+                            </div>
                             <div className="opacity-[.85] hover:underline"><Link to="/symbols">Policy on Boys Quarters Allocation.</Link></div>
                             <div className="opacity-[.85] hover:underline"><Link to="/symbols">Dress code for students of the University of Lagos.</Link></div>
                             <div className="opacity-[.85] hover:underline"><Link to="/symbols">Policy on Staff and Student-Relationship Responsibilities.</Link></div>

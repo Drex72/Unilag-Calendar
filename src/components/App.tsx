@@ -5,7 +5,7 @@ import SectionIV from "./SectionIV";
 import SectionV from "./SectionV";
 import SectionVII from "./SectionVII";
 import SectionIX from "./SectionIX";
-import SectionX from "./SectionX";
+// import SectionX from "./SectionX";
 import SectionXIII from "./SectionXIII";
 import Home from "./Home";
 import AcademicUnit from "./SectionVII/AcademicUnit";
@@ -34,6 +34,8 @@ import SectionXII from "./SectionXII/SectionXII";
 import { SectionVIII } from "./sectionVIII/index";
 import SectionVI from "./SectionVI/SectionVI";
 import { SectionI } from "./SectionI/SectionI";
+import SectionX from "./SectionX/SectionX";
+
 
 function App() {
   return (
