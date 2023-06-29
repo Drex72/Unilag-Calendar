@@ -227,7 +227,7 @@ const Navbar = () => {
 
                     onClick={() => handleLinkClick(6)}
                 >
-                    <p>Section VII</p>
+                    <p>FACULTIES</p>
                     <div className="mt-[5px]">
                         {isOpen[6] ? <BsChevronUp /> : <BsChevronDown />}
                     </div>
@@ -236,45 +236,48 @@ const Navbar = () => {
                     (<div className="space-y-3 p-3">
 
                         <div className="opacity-[.85] hover:underline">
-                            <Link to="/symbols">
+                            <Link to="/SectionVII/academic-unit">
                                 Academic Units in the School, College and Faculties.
                             </Link>
                         </div>
                         <div className="opacity-[.85] hover:underline">
-                            <Link to="/symbols">School of Postgraduate Studies (SPGS).</Link>
+                            <Link to="/SectionVII/xiii">School of Postgraduate Studies (SPGS).</Link>
                         </div>
                         <div className="opacity-[.85] hover:underline">
-                            <Link to="/symbols">Faculty of Basic Medical Sciences (CMUL).</Link>
+                            <Link to="/SectionVII/ii">Faculty of Basic Medical Sciences (CMUL).</Link>
                         </div>
                         <div className="opacity-[.85] hover:underline">
-                            <Link to="/symbols">Faculty of Clinical Sciences (CMUL).</Link>
+                            <Link to="/SectionVII/iii">Faculty of Clinical Sciences (CMUL).</Link>
                         </div>
                         <div className="opacity-[.85] hover:underline">
-                            <Link to="/symbols">Faculty of Dental sciences (CMUL).</Link>
+                            <Link to="/SectionVII/iv">Faculty of Dental sciences (CMUL).</Link>
                         </div>
                         <div className="opacity-[.85] hover:underline]">
-                            <Link to="/symbols">Faculty of Arts.</Link>
+                            <Link to="/SectionVII/i">Faculty of Arts.</Link>
                         </div>
                         <div className="opacity-[.85] hover:underline">
-                            <Link to="/symbols">Faculty of Education.</Link>
+                            <Link to="/SectionVII/v">Faculty of Education.</Link>
                         </div>
                         <div className="opacity-[.85] hover:underline">
-                            <Link to="/symbols">Faculty of Engineering.</Link>
+                            <Link to="/SectionVII/vi">Faculty of Engineering.</Link>
                         </div>
                         <div className="opacity-[.85] hover:underline">
-                            <Link to="/symbols">Faculty of Environmental Sciences.</Link>
+                            <Link to="/SectionVII/vii">Faculty of Environmental Sciences.</Link>
                         </div>
                         <div className="opacity-[.85] hover:underline">
-                            <Link to="/symbols">Faculty of Law.</Link>
+                            <Link to="/SectionVII/viii">Faculty of Law.</Link>
                         </div>
                         <div className="opacity-[.85] hover:underline">
-                            <Link to="/symbols">Faculty of Management Sciences.</Link>
+                            <Link to="/SectionVII/ix">Faculty of Management Sciences.</Link>
                         </div>
                         <div className="opacity-[.85] hover:underline">
-                            <Link to="/symbols">Faculty of Pharmacy.</Link>
+                            <Link to="/SectionVII/x">Faculty of Pharmacy.</Link>
                         </div>
                         <div className="opacity-[.85] hover:underline">
-                            <Link to="/symbols">Faculty of Social Sciences.</Link>
+                            <Link to="/SectionVII/xi">Faculty of Science.</Link>
+                        </div>
+                        <div className="opacity-[.85] hover:underline">
+                            <Link to="/SectionVII/xii">Faculty of Social Sciences.</Link>
                         </div>
                     </div>
                     ) :
