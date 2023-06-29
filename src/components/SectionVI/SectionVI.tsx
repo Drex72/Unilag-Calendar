@@ -1226,6 +1226,10 @@ const SectionVI = () => {
 
                                 Table 1: Approved Scoring and Grading System
                             </strong>
+                            <p>Credit Unit: Vary According To contact Hours Assigned to Eact  Course per week  Per semester and  According to work
+                            </p>
+
+                            
                         </p>
                         <br />
                         <table >
@@ -1243,7 +1247,7 @@ const SectionVI = () => {
 
                             <tbody>
                                 <tr >
-                                    <td>Vary According</td>
+                                    <td>Vary </td>
                                     <td>70-100</td>
                                     <td>A</td>
                                     <td>5</td>
@@ -1252,17 +1256,512 @@ const SectionVI = () => {
                                     <td>First Class</td>
                                 </tr>
                             </tbody>
+                            <tbody>
+                                <tr >
+                                    <td>Vary </td>
+                                    <td>60-69</td>
+                                    <td>B</td>
+                                    <td>4</td>
+                                    <td>Multiplyig</td>
+                                    <td>3.59-4.49</td>
+                                    <td>Second Class Upper</td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr >
+                                    <td>Vary </td>
+                                    <td>50-59</td>
+                                    <td>C</td>
+                                    <td>3</td>
+                                    <td>I and IV</td>
+                                    <td>2.40-3.49</td>
+                                    <td>Second Class Lower</td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr >
+                                    <td>Vary </td>
+                                    <td>45-49</td>
+                                    <td>D</td>
+                                    <td>2</td>
+                                    <td>and dividing</td>
+                                    <td>1.50-2.39</td>
+                                    <td>Third Class</td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr >
+                                    <td>Vary </td>
+                                    <td>40-44</td>
+                                    <td>E</td>
+                                    <td>1</td>
+                                    <td>By Total</td>
+                                    <td>1.00-1.40</td>
+                                    <td>Pass</td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr >
+                                    <td>Vary </td>
+                                    <td>0-39</td>
+                                    <td>F</td>
+                                    <td>0</td>
+                                    <td>Credit Unit</td>
+                                    <td>0.99</td>
+                                    <td>Fail</td>
+                                </tr>
+                            </tbody>
                         </table>
                         <table>
                             <tbody>
 
                             </tbody>
                         </table>
+                        <br/>
+                        <p>Load carried by student </p>
+<br/>
+<p>
+3.	All letter grade and grade points will appear on the report cards and permanent records.  These additional letters shall be used where appropriate:
+</p>
+<p>
+AUD	-	Audited Courses only
+</p>
+<p>
+Ex	-	Exempted
+</p>
+<p>
+</p>
+<p>
+W	-	Withdrawal from course
+</p>
+<p>
+I	-	Incomplete
+</p>
+<p>
+P	-	Pass
+</p>
+<br/>
+<p>
+4.	Transcripts of examination scores shall be issued to students as appropriate at the end of each session.
+</p>
+<br/>
+<p>
+<strong>
+5.	AWARD OF AEGROTAT DEGREE
+</strong>
+</p>
+<p>
+ “A candidate who has completed his course of study and who has been absent through illness from part of the Final Examination for a First Degree may apply to the University for the award of an Aegrotat Degree in accordance with the following Regulation;
+</p>
+<p>
+ Candidates who have completed more than half of the Examination are eligible to apply for an Aegrotat Degree;
+</p>
+<p>
+ Applications from or on behalf of students must reach the Registrar not later than one week after the termination of the relevant examination and the Registrar shall require the candidate to submit a report obtained from a medical practitioner approved by the University”
+</p>
+<p>
+Senate thereafter decided that the Aegrotat Degree shall be awarded as B.Sc/B.A/B.Ed. Programme (Aegrotat)
+</p>
+<br/>
+<p>
+<strong>
+
+
+
+PART II
+</strong>
+</p>
+<br/>
+<p>
+<strong>
+EXAMINATION MISCONDUCT AND STUDENT DISCIPLINE
+</strong>
+</p>
+<br/>
+<p>
+<strong>
+
+I.	General 
+</strong>
+</p>
+<p>
+
+1.	Any action which prejudices the integrity of the University examinations shall be considered to be in academic misconduct and shall be punishable by appropriate disciplinary action. 
+</p>
+<p>
+
+2.	With respect to all proceedings under the University’s rules and regulations relating to academic discipline, each student shall be presumed innocent until the contrary has been established. 
+</p>
+<br/>
+<p>
+<strong>
+
+II.	Academic Misconduct 
+</strong>
+</p>
+<br/>
+<p>
+<strong>
+MISCONDUCT PENALTY
+</strong>
+</p>
+<br/>
+<p>
+<strong>
+
+EXAMINATION MISCONDUCT (PHYSICAL AND VIRTUAL)
+</strong>
+</p>
+<br/>
+<p>
+
+At its meeting of Monday, March 29, 2021, the Senate approved the harmonized penalties/sanctions for examination misconduct (Physical and Virtual), including but not limited to Impersonation, illegal Possession of Answer Scripts, Destruction of Evidence, Impersonation, plagiarism, cheating in Examination through the use of Electronic Device or Smart Phones, Unauthorized Communication, Refusal to Fill the Misconduct Form and Disruptive Behaviour. The penalty for each offence is clearly stipulated in the policy on Examination Misconduct.
+
+</p>
+<br/>
+<p>
+Without the generality of the foregoing, academic misconduct shall be deemed to include, but shall not be limited to, the following: 
+</p>
+<p>
+
+1.	Cheating on examinations, assignments, term papers, reports, projects or any other tests which are to be used in judging the student’s performance in a course or programmes of study. or on any special tests which the University may offer. Cheating includes copying from another student’s work or allowing another student to copy from one’s own work, consultation with any unauthorised person during an examination or test, and use of unauthorised aids.
+</p>
+<p>
+
+2.	Impersonating another student or entering into an agreement with another person to be impersonated for purposes of taking examination or tests, or carrying out laboratory or other assignments. 
+</p>
+<p>
+
+3.	Plagiarism, that is, the act of presenting the ideas or words of another as one’s own. The use of other people’s ideas or words must be properly acknowledged and referenced. This applies to all written materials such as essays, laboratory reports, term papers, designs and other projects, statistical data, computer programmes and research results. The properly acknowledged use of sources is an accepted and important part of scholarship. Use of such material without acknowledgement, however, is contrary to accepted norms of academic behaviour. 
+</p>
+<p>
+
+4.	Obtaining by theft or other improper means examination papers, tests, or any other materials, or using such materials or distributing such materials to other students. 
+</p>
+<p>
+
+5.	Falsifying academic records or submitting false credentials for purposes of gaining admission to a university examination, or any other academic purpose. 
+</p>
+<p>
+
+6.	Submitting a false medical or other certificate under false pretence for examinations or any academic purpose whatever. 
+</p>
+<p>
+
+7.	Submitting an essay, report, or assignment to satisfy some or all of the requirements of a course when that essay, report or assignment has been previously submitted or is concurrently being submitted for another course without the express permission of the teacher(s) involved. 
+</p>
+<p>
+
+8.	Behaving in a manner which infringes in an unreasonable way on the rights of other students to engage in their scholarly work. This shall include the disruption of classes and examinations, and the harassment or intimidation of students or staff. 
+</p>
+<p>
+
+9.	Behaving in a laboratory in' a manner which is in serious or repeated violation of safety regulations and thereby a situation that constitutes a threat to the safety of the individual or other occupants of the laboratory. 
+</p>
+<br/>
+<p>
+<strong>
+
+III.	Jurisdiction and Principles
+</strong>
+</p>
+<p>
+
+1.	As provided in Section 19 of the University of Lagos Act, 1967, disciplinary jurisdiction with respect to all students of the University shall be vested in the Vice-Chancellor. . 
+
+</p>
+<p>
+
+2.	In practice, the Vice-Chancellor may delegate his authority to the Provost of Colleges and Deans of Faculties and Heads of Departments, except that the Vice-Chancellor may not delegate the power to expel a student. 
+</p>
+<p>
+
+3.	The Provost of each College or Dean of each Faculty shall appoint an Advisory Committee on Academic Disciplinary Action (A CAD A), to-conduct hearings and make recommendations on disciplinary matters involving students enrolled in the college/ faculty/school. The Committee shall consist of the following: 
+</p>
+<p>
+
+4.	Chairman who shall be the Sub-Dean of the Faculty or School or an equivalent officer or delegate appointed by the Provost/Dean of the College/Faculty/ School; 
+</p>
+<p>
+
+5.	two students of the College/Faculty; 
+</p>
+<p>
+
+6.	one member of the teaching staff from each department of the College/Faculty; except that in the case of the School of Postgraduate Studies there shall be four graduate teachers irrespective of department. 
+</p>
+<br/>
+<p>
+<strong>
+IV.	Procedure
+</strong>
+</p>
+<br/>
+<p>
+<strong>
+
+(a)	Procedure for Information Resolution 
+</strong>
+</p>
+<br/>
+<p>
+
+1.	For academic misconduct occurring in class tests, assignment, reports, laboratory works, etc., the matter shall be resolved at a meeting involving the teacher(s) and the student(s) concerned under the chairmanship of the head of department; without reference to the Dean. 
+</p>
+<p>
+
+2.	Where the head of department is himself the teacher of the course, another senior member of the department shall preside at such meeting. 
+</p>
+<p>
+
+3.	In order to settle a matter at an informal level, the decision reached must be satisfactory to the teacher(s) and the student(s) involved. 
+</p>
+<br/>
+<p>
+<strong>
+
+(b)	Procedure for Resolving Student’s Petition on Examination Results 
+</strong>
+</p>
+<br/>
+<p>
+
+1.	The Panel of Examiners shall be so well constituted that results when determined can be confidently defended. In this regard, a well developed marking scheme must be produced on demand for every course examined: 
+</p>
+<p>
+
+2.	External Examiners shall be specifically asked to look at all marginal cases and failure cases. 
+</p>
+<p>
+
+3.	All petitions must be addressed to the Provost/Dean of the College/Faculty. If a student’s complaint is against the Dean, he may send an “advance copy” to the Vice-Chancellor, but his petition must be addressed to the Provost/Dean in the first instance. 
+</p>
+<p>
+
+4.	Each petition shall be accompanied with a N50.00 service fee. If, at the end, the exercise results in the upgrading of the student’s grade (not raw marks) the fee shall be refunded to the student. 
+</p>
+<p>
+
+5.	The Provost/Dean shall act speedily on any petition received, using all facilities at his command to check the correctness of the student’s result. This will discipline reviewing the script(s) of the student. This examiner shall be provided with the marking scheme and all the scripts for the course examination.
+</p>
+<p>
+
+6.	The Provost/Dean and Heads of Department shall endeavour to ensure the teaching staff maintain at all times the proper teacher/student relationship, so that no student may have any ground for claiming or believing that he/she is being victimised or unfairly treated. 
+</p>
+<br/>
+<p>
+<strong>
+(c)	Procedure for Formal Resolution 
+</strong>
+</p>
+<br/>
+<p>
+
+1.	Chief Invigilators shall use their discretion in the handling of any cases of misconduct by candidates, but shall assemble all ‘the facts and unauthorised materials pertaining to the alleged misconduct. These may include scraps of paper, books, statements from witnesses and other paraphernalia or matter which might have been or suspected to have been used for the misconduct. The Chief Invigilator is urged to obtain a written confirmation from the candidate that these materials either belong to him or were brought to the examination hall, submit a written report together with all relevant documentary evidence on the incident to the Chief Examiner (Head of Department). 
+</p>
+<p>
+
+1.	The Chief Examiner shall forward, the report with his own comments to the Provost/Dean for onward transmission to ACADA. 
+</p>
+<p>
+
+2.	The Committee on completion of its investigation shall submit a report to the Provost/Dean who shall forward same with his recommendations to the Academic Secretary. 
+</p>
+<p>
+
+3.	The Academic Secretary, acting on behalf of the Registrar, shall forward their report to the Vice-Chancellor for appropriate action. 
+</p>
+<p>
+
+4.	The decision of the Vice-Chancellor on the recommendation(s) of ACADA shall be conveyed to the student(s) by the Registrar. As much as possible, the disciplinary action should be conveyed to the student(s) concerned not later than the middle of the semester following the one in which the misconduct occurred. 
+</p>
+<br/>
+<p>
+<strong>
+
+DISCIPLINARY ACTION
+</strong>
+</p>
+<br/>
+<p>
+
+ACADA may recommend one or more of the following disciplinary actions:
+</p>
+<p>
+
+1.	Reprimand: This shall be in the nature of a warning to the student that his/ herbehaviour has been unacceptable to the University and that any further behaviour of this sort will lead to a stiffer penalty. 
+</p>
+<p>
+
+2.	Submission of a failing grade: In the examination test, assignment, or course,or, where applicable, in a term. A failing grade in a course or term shall remain part of the student’s permanent record. 
+</p>
+<p>
+
+3.	Disciplinary Probation: A student may be placed on disciplinary probation bythe Provost/Dean for the balance of the period of registration at the University in the degree programme in which the student was registered at the time of the misconduct. A note to the effect that the student is on probation will appear in the student’s file and will be removed upon completion of the degree requirements. The effect of being placed on disciplinary probation is that any further misconduct shall lead to a stiffer penalty.
+</p>
+<p>
+
+4.	Suspension: A student may be suspended from the University by the Vice-Chancellor for a period of which shall not exceed three years. While suspended, a student may not register in the University and shall lose the right to attend lecture, write examinations, and receive remuneration from University sources. Notice of a suspension shall be placed in the student’s file and will appear on any transcript issued during the period of suspension. Upon completion of the period of suspension, the student will be eligible for reinstatement to full academic status and the notice of suspension will be removed from the student’s permanent record. 
+
+5.	Expulsion: A student may be expelled from the University only by the Vice-Chancellor. Expulsion shall be permanent and a statement of such action shall be part of the student’s permanent academic record and shall appear on all subsequent transcripts. 
+</p>
+<br/>
+<p>
+<strong>
+
+1. The University’s Responsibilities
+</strong>
+</p>
+<p>
+<br/>
+
+1.	It is hereby declared that while this policy is concerned with the nature of and procedure of handling academic misconduct committed by students, the University also acknowledges certain fundamental responsibilities pertaining to such matters. In particular, the University has a responsibility to provide adequate facilities and invigilation/protection for all semester and final examinations. Students who are required to write examination under crowded or otherwise inadequate conditions may be placed in a position where inadvertent cheating is very difficult to avoid. 
+</p>
+<p>
+
+2.	The University also has a responsibility to ensure that teaching staff uphold the principles of the University and the integrity of the scholarly activity in which they are engaged. 
+</p>
+<p>
+1.	Impersonation. Expulsion 
+</p>
+<p>
+2.	Physical attack or assault on invigilators. Expulsion 
+</p>
+<p>
+3.	Coming to examination hall with prepared answer scripts Expulsion 
+</p>
+<p>
+4.	Smuggling question papers out of examination hall for help and returning with answer script. Expulsion 
+</p>
+<p>
+5.	Being found in examination hall with jotted notes (cribs or chips) on body, under the locker or in the vicinity, writing relevant materials on palms and other places. Rustication (4 semesters)
+</p>
+<p>
+6.	Copying, exchange of sheets or question papers in the Examination Hall. Rustication (4 semesters) 
+</p>
+<p>
+7.	Consultation or soliciting or giving information or assistance Rustication (2 semesters) 
+</p>
+<p>
+8.	Coming to the examination hall with mobile phone(s) Rustication (1 semester) 
+</p>
+<p>
+9.	Destruction of evidence (perverting of justice) and Mutilation of matriculation number. Rustication (4 semesters) 
+</p>
+<p>
+10.	Failure to appear before the Misconduct Panel after which nonappearance leads to Suspension for 2 semesters Expulsion________
+</p>
+<p>
+11.	Rude and disorderly behaviour in the examination hall Rustication (2 semesters) 
+</p>
+<p>
+12.	Failure to submit answer script at the end of examination Rustication (2 semesters) 
+</p>
+<p>
+13.	Failure and or refusal to fill the examination misconduct Form when apprehended Rustication (2 semesters) 
+
+
+
+</p>
+<br/>
+<p>
+<strong>
+
+A.	INTER/ INTRA FACULTY TRANSFER
+</strong>
+</p>
+<br/>
+<p>
+<strong>
+
+Procedure:
+</strong>
+</p>
+<p>
+
+i.	Online advertisement opens towards the end of 2nd Semester.
+</p>
+<p>
+ii.	Eligibility and permissible programmes come up with the advertisement.
+</p>
+<p>
+iii.	Transfer Forms are online at approved fee.
+</p>
+<p>
+iv.	Completed forms must be submitted to the Academic Affairs Office
+</p>
+<p>
+v.	Submitted forms are processed with strict adherence to the following:
+</p>
+<p>
+a.	Applicant must have completed year two (2) of the programme of admission.
+</p>
+<p>
+b.	Applicant must have a CGPA of not less than one (1.00) at the end of 2nd Semester, Year 2.
+</p>
+<p>
+c.	Relevant WAEC/NECO ‘O’ level results. 
+</p>
+<p>
+d.	Application Form must have been approved by HOD and Dean of current and proposed Department and Faculty. 
+</p>
+<p>
+vi.	All applications for transfer would be approved by the Vice Chancellor.
+</p>
+<p>
+vii.	Successful applicants and all stakeholders are duly informed officially.
+</p>
+<br/>
+<p>
+<strong>
+
+B. Transfer of GST Courses (Results and Units)
+</strong>
+</p>
+<p>
+
+i. Transfer and Re-assigned (Pre-Med.) students of the University do not need to re-take GST Courses already passed. The units of passed GST Courses are credited to each student.
+</p>
+<p>
+ii. Similarly, students offered fresh admission (Direct Entry) after completing a first degree programme in the University do not need to register for GST Courses already passed in the previous programme. However, they must fulfil the total number of units required for graduation in the new programme.
+</p>
+<br/>
+<p>
+<strong>
+
+1.	DEFERMENT, LEAVE OF ABSENCE(LoA) AND MEDICAL/SICK LEAVE
+</strong>
+</p>
+<p>
+
+A.	Leave of Absence (LoA) is a request made at the beginning of the session, before registration.
+</p>
+<p>
+B.	Deferment is a request made after registration, before Semester examination. 
+
+</p>
+<p>
+<br/>
+It is important to note that:
+</p>
+<p>
+
+i.	Fully registered students are eligible to apply for deferment.
+</p>
+<p>
+ii.	Students who are unable to register for a particular Semester or Session are eligible to apply for Leave of Absence (LoA).
+</p>
+<p>
+iii.	Retroactive Leave of Absence and Deferment are not allowed. Results of students are processed as ABSENT at the end of Semester if they are not registered.
+
+</p>
+
                     </p>
                 </div>
             </Element>
-
+<br/>
             <Element name="regulations-governing-graduate-studies">
+                <br/>
                 <TextHeading content='Regulations Governing Graduate Studies.' />
                 <div>
                     <p>
