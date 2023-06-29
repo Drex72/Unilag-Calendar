@@ -23,46 +23,49 @@ const SectionVII = () => {
             rounded-lg border-grey max-w-[600px] space-y-4 text-[20px] mb-10 p-10"
       >
         <div className="font-extrabold text-[23px]">
-          <Link to="/symbols">
+          <Link to="/sectionVII/academic-unit">
             Academic Units in the School, College and Faculties{" "}
           </Link>
         </div>
         <div className="opacity-[.85]">
-          <Link to="/symbols">School of Postgraduate Studies (SPGS).</Link>
+          <Link to="/sectionVII/xiii">School of Postgraduate Studies (SPGS).</Link>
         </div>
         <div className="opacity-[.85]">
-          <Link to="/symbols">Faculty of Basic Medical Sciences (CMUL).</Link>
+          <Link to="/sectionVII/ii">Faculty of Basic Medical Sciences (CMUL).</Link>
         </div>
         <div className="opacity-[.85]">
-          <Link to="/symbols">Faculty of Clinical Sciences (CMUL).</Link>
+          <Link to="/sectionVII/iii">Faculty of Clinical Sciences (CMUL).</Link>
         </div>
         <div className="opacity-[.85]">
-          <Link to="/symbols">Faculty of Dental sciences (CMUL).</Link>
+          <Link to="/sectionVII/iv">Faculty of Dental sciences (CMUL).</Link>
         </div>
         <div className="opacity-[.85]">
-          <Link to="/symbols">Faculty of Arts.</Link>
+          <Link to="/sectionVII/i">Faculty of Arts.</Link>
         </div>
         <div className="opacity-[.85]">
-          <Link to="/symbols">Faculty of Education.</Link>
+          <Link to="/sectionVII/v">Faculty of Education.</Link>
         </div>
         <div className="opacity-[.85]">
-          <Link to="/symbols">Faculty of Engineering.</Link>
+          <Link to="/sectionVII/vi">Faculty of Engineering.</Link>
         </div>
         <div className="opacity-[.85]">
-          <Link to="/symbols">Faculty of Environmental Sciences.</Link>
+          <Link to="/sectionVII/vii">Faculty of Environmental Sciences.</Link>
         </div>
         <div className="opacity-[.85]">
-          <Link to="/symbols">Faculty of Law.</Link>
+          <Link to="/sectionVII/viii">Faculty of Law.</Link>
         </div>
         <div className="opacity-[.85]">
-          <Link to="/symbols">Faculty of Management Sciences.</Link>
+          <Link to="/sectionVII/ix">Faculty of Management Sciences.</Link>
         </div>
         <div className="opacity-[.85]">
-          <Link to="/symbols">Faculty of Pharmacy.</Link>
+          <Link to="/sectionVII/x">Faculty of Pharmacy.</Link>
         </div>
+       <div className="opacity-[.85]">
+          <Link to="/sectionVII/xii">Faculty of Social Sciences.</Link>
+        </div> 
         <div className="opacity-[.85]">
-          <Link to="/symbols">Faculty of Social Sciences.</Link>
-        </div>
+          <Link to="/sectionVII/xi">Faculty of Sciences.</Link>
+        </div> 
       </div>
     </div>
   );
