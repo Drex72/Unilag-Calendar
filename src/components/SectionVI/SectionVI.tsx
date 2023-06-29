@@ -1228,6 +1228,26 @@ const SectionVI = () => {
                             </strong>
                         </p>
                         <br />
+                        <table >
+                            <thead>
+                                <tr>
+                                    <th>Credit Unit</th>
+                                    <th>Percentage Scores</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr >
+                                    <td>Vary According</td>
+                                    <td>70-100</td>
+                                    <td>A</td>
+                                    <td>5</td>
+                                    <td>Derived</td>
+                                    <td>4.50-5.00</td>
+                                    <td>First Class</td>
+                                </tr>
+                            </tbody>
+                        </table>
                         <table>
                             <tbody>
 
