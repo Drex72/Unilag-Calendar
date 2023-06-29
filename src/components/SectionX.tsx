@@ -23,7 +23,7 @@ const SectionX = () => {
             rounded-lg border-grey max-w-[700px] space-y-4 text-[20px] mb-10 p-10"
       >
         <div className="font-extrabold text-[23px]">
-          <Link to="/symbols">Policies of the University</Link>
+          <Link to="/">Policies of the University</Link>
         </div>
         <div className="opacity-[.85]">
           <Link to="/symbols">

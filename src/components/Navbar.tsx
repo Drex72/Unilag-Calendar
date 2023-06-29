@@ -544,6 +544,53 @@ const Navbar = () => {
                 <>
                     <Link to="#" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
                 hover:py-2 hover:pl-7 hover:pr-10 hover:rounded transition ease-in-out hover:delay-100
+
+                ${activeLink === 9 ? "bg-purple py-2 pl-7 pr-[40px] text-white rounded" : ""} `}
+
+                        onClick={() => handleLinkClick(9)}
+                    >
+                        <p>Section X</p>
+                        <div className="mt-[5px]">
+                            {isOpen[9] ? <BsChevronUp /> : <BsChevronDown />}
+                        </div>
+                    </Link>
+                    {isOpen[9] ?
+                        (<div className="space-y-4 p-3">
+                            <div className="opacity-[.85] hover:underline">
+                                <ScrollLink to="university-policies" smooth={true} duration={500}>
+                                    <Link to="/sectionX">Policies of the University.</Link>
+                                </ScrollLink>
+                            </div>
+                            <div className="opacity-[.85] hover:underline">
+                                <ScrollLink to="policy-concerning-the-employment-of-pregnant-women" smooth={true} duration={500}>
+                                    <Link to="/sectionX">Policy concerning the employment of pregnant women.</Link>
+                                </ScrollLink>
+                            </div>
+                            <div className="opacity-[.85] hover:underline">
+                                <ScrollLink to="policy-on-staff-development-pattern" smooth={true} duration={500}>
+                                    <Link to="/sectionX">Policy on Staff Development Pattern.</Link>
+                                </ScrollLink>
+                            </div>
+                            <div className="opacity-[.85] hover:underline">
+                                <ScrollLink to="POLICY-ON-MANDATORY-DRUG-TEST-FOR-NEWLY-ADMITTED-STUDENTS" smooth={true} duration={500}>
+                                    <Link to="/sectionX">Policy on Mandatory Drug Test for newly admitted Students.</Link>
+                                </ScrollLink>
+                            </div>
+                            <div className="opacity-[.85] hover:underline"><Link to="/symbols">Policy on Boys Quarters Allocation.</Link></div>
+                            <div className="opacity-[.85] hover:underline"><Link to="/symbols">Dress code for students of the University of Lagos.</Link></div>
+                            <div className="opacity-[.85] hover:underline"><Link to="/symbols">Policy on Staff and Student-Relationship Responsibilities.</Link></div>
+                            <div className="opacity-[.85] hover:underline"><Link to="/symbols">Cell Phone Usage policy.</Link></div>
+                            <div className="opacity-[.85] hover:underline"><Link to="/symbols">Plagiarism Policy.</Link></div>
+                            <div className="opacity-[.85] hover:underline"><Link to="/symbols">Equal Opportunity Policy.</Link></div>
+                            <div className="opacity-[.85] hover:underline"><Link to="/symbols">Whistleblowing Policy.</Link></div>
+                            <div className="opacity-[.85] hover:underline"><Link to="/symbols">CUNILAG Policy on Sexual harassment, sexual and romantic relationship/Draft rape information for rape victim.</Link></div>
+                            <div className="opacity-[.85 hover:underline"><Link to="/symbols">Fire safety Policy.</Link></div>
+                            <div className="opacity-[.85] hover:underline"><Link to="/symbols">Ventures.</Link></div>
+                        </div>) :
+                        ""
+                    }
+                </>
+
                 ${activeLink===9 ?"bg-purple py-2 pl-7 pr-[40px] text-white rounded":""} `}
                 
                 onClick={() => handleLinkClick(9)}
@@ -573,7 +620,7 @@ const Navbar = () => {
                     ""
                 }
                 
-
+<!-- to here -->
                 {/* *****Section XI***** */}
                 <>
                     <Link to="#" className={`flex pr-2 hover:bg-purple hover:text-white space-x-3
