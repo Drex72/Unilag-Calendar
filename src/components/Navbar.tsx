@@ -633,13 +633,16 @@ const Navbar = () => {
                     </Link>
                     {isOpen[8] ?
                         (<div className="space-y-3 p-3">
-
-
                             <div className="opacity-[.85] hover:underline">
-                                <Link to="/symbols">Strategic Units.</Link>
+                                <ScrollLink to="strategic-units" smooth={true} duration={500}>
+                                    <Link to="sectionIX">Strategic Units.</Link>
+                                </ScrollLink>
                             </div>
+
                             <div className="opacity-[.85] hover:underline">
-                                <Link to="/symbols">Research and Innovations.</Link>
+                                <ScrollLink to="research-innovation" smooth={true} duration={500}>
+                                    <Link to="sectionIX">Research and Innovations.</Link>
+                                </ScrollLink>
                             </div>
                             <div className="opacity-[.85] hover:underline">
                                 <Link to="/symbols">
